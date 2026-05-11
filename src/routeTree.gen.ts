@@ -10,12 +10,18 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as ProjectDetailsRouteImport } from './routes/project-details'
+import { Route as ProblemCriteriaRouteImport } from './routes/problem-criteria'
 import { Route as BackgroundRouteImport } from './routes/background'
 import { Route as IndexRouteImport } from './routes/index'
 
 const ProjectDetailsRoute = ProjectDetailsRouteImport.update({
   id: '/project-details',
   path: '/project-details',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ProblemCriteriaRoute = ProblemCriteriaRouteImport.update({
+  id: '/problem-criteria',
+  path: '/problem-criteria',
   getParentRoute: () => rootRouteImport,
 } as any)
 const BackgroundRoute = BackgroundRouteImport.update({
@@ -32,30 +38,39 @@ const IndexRoute = IndexRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/background': typeof BackgroundRoute
+  '/problem-criteria': typeof ProblemCriteriaRoute
   '/project-details': typeof ProjectDetailsRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/background': typeof BackgroundRoute
+  '/problem-criteria': typeof ProblemCriteriaRoute
   '/project-details': typeof ProjectDetailsRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/background': typeof BackgroundRoute
+  '/problem-criteria': typeof ProblemCriteriaRoute
   '/project-details': typeof ProjectDetailsRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/background' | '/project-details'
+  fullPaths: '/' | '/background' | '/problem-criteria' | '/project-details'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/background' | '/project-details'
-  id: '__root__' | '/' | '/background' | '/project-details'
+  to: '/' | '/background' | '/problem-criteria' | '/project-details'
+  id:
+    | '__root__'
+    | '/'
+    | '/background'
+    | '/problem-criteria'
+    | '/project-details'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   BackgroundRoute: typeof BackgroundRoute
+  ProblemCriteriaRoute: typeof ProblemCriteriaRoute
   ProjectDetailsRoute: typeof ProjectDetailsRoute
 }
 
@@ -66,6 +81,13 @@ declare module '@tanstack/react-router' {
       path: '/project-details'
       fullPath: '/project-details'
       preLoaderRoute: typeof ProjectDetailsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/problem-criteria': {
+      id: '/problem-criteria'
+      path: '/problem-criteria'
+      fullPath: '/problem-criteria'
+      preLoaderRoute: typeof ProblemCriteriaRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/background': {
@@ -88,6 +110,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   BackgroundRoute: BackgroundRoute,
+  ProblemCriteriaRoute: ProblemCriteriaRoute,
   ProjectDetailsRoute: ProjectDetailsRoute,
 }
 export const routeTree = rootRouteImport
