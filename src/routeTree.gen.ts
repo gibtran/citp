@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as PrototypingRouteImport } from './routes/prototyping'
 import { Route as ProjectDetailsRouteImport } from './routes/project-details'
 import { Route as ProblemCriteriaRouteImport } from './routes/problem-criteria'
+import { Route as OtherConsiderationsRouteImport } from './routes/other-considerations'
 import { Route as ImplementationRouteImport } from './routes/implementation'
 import { Route as DetailedDesignRouteImport } from './routes/detailed-design'
 import { Route as DesignSelectionRouteImport } from './routes/design-selection'
@@ -33,6 +34,11 @@ const ProjectDetailsRoute = ProjectDetailsRouteImport.update({
 const ProblemCriteriaRoute = ProblemCriteriaRouteImport.update({
   id: '/problem-criteria',
   path: '/problem-criteria',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OtherConsiderationsRoute = OtherConsiderationsRouteImport.update({
+  id: '/other-considerations',
+  path: '/other-considerations',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ImplementationRoute = ImplementationRouteImport.update({
@@ -79,6 +85,7 @@ export interface FileRoutesByFullPath {
   '/design-selection': typeof DesignSelectionRoute
   '/detailed-design': typeof DetailedDesignRoute
   '/implementation': typeof ImplementationRoute
+  '/other-considerations': typeof OtherConsiderationsRoute
   '/problem-criteria': typeof ProblemCriteriaRoute
   '/project-details': typeof ProjectDetailsRoute
   '/prototyping': typeof PrototypingRoute
@@ -91,6 +98,7 @@ export interface FileRoutesByTo {
   '/design-selection': typeof DesignSelectionRoute
   '/detailed-design': typeof DetailedDesignRoute
   '/implementation': typeof ImplementationRoute
+  '/other-considerations': typeof OtherConsiderationsRoute
   '/problem-criteria': typeof ProblemCriteriaRoute
   '/project-details': typeof ProjectDetailsRoute
   '/prototyping': typeof PrototypingRoute
@@ -104,6 +112,7 @@ export interface FileRoutesById {
   '/design-selection': typeof DesignSelectionRoute
   '/detailed-design': typeof DetailedDesignRoute
   '/implementation': typeof ImplementationRoute
+  '/other-considerations': typeof OtherConsiderationsRoute
   '/problem-criteria': typeof ProblemCriteriaRoute
   '/project-details': typeof ProjectDetailsRoute
   '/prototyping': typeof PrototypingRoute
@@ -118,6 +127,7 @@ export interface FileRouteTypes {
     | '/design-selection'
     | '/detailed-design'
     | '/implementation'
+    | '/other-considerations'
     | '/problem-criteria'
     | '/project-details'
     | '/prototyping'
@@ -130,6 +140,7 @@ export interface FileRouteTypes {
     | '/design-selection'
     | '/detailed-design'
     | '/implementation'
+    | '/other-considerations'
     | '/problem-criteria'
     | '/project-details'
     | '/prototyping'
@@ -142,6 +153,7 @@ export interface FileRouteTypes {
     | '/design-selection'
     | '/detailed-design'
     | '/implementation'
+    | '/other-considerations'
     | '/problem-criteria'
     | '/project-details'
     | '/prototyping'
@@ -155,6 +167,7 @@ export interface RootRouteChildren {
   DesignSelectionRoute: typeof DesignSelectionRoute
   DetailedDesignRoute: typeof DetailedDesignRoute
   ImplementationRoute: typeof ImplementationRoute
+  OtherConsiderationsRoute: typeof OtherConsiderationsRoute
   ProblemCriteriaRoute: typeof ProblemCriteriaRoute
   ProjectDetailsRoute: typeof ProjectDetailsRoute
   PrototypingRoute: typeof PrototypingRoute
@@ -181,6 +194,13 @@ declare module '@tanstack/react-router' {
       path: '/problem-criteria'
       fullPath: '/problem-criteria'
       preLoaderRoute: typeof ProblemCriteriaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/other-considerations': {
+      id: '/other-considerations'
+      path: '/other-considerations'
+      fullPath: '/other-considerations'
+      preLoaderRoute: typeof OtherConsiderationsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/implementation': {
@@ -243,6 +263,7 @@ const rootRouteChildren: RootRouteChildren = {
   DesignSelectionRoute: DesignSelectionRoute,
   DetailedDesignRoute: DetailedDesignRoute,
   ImplementationRoute: ImplementationRoute,
+  OtherConsiderationsRoute: OtherConsiderationsRoute,
   ProblemCriteriaRoute: ProblemCriteriaRoute,
   ProjectDetailsRoute: ProjectDetailsRoute,
   PrototypingRoute: PrototypingRoute,
