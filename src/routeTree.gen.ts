@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as ProjectDetailsRouteImport } from './routes/project-details'
 import { Route as ProblemCriteriaRouteImport } from './routes/problem-criteria'
+import { Route as DetailedDesignRouteImport } from './routes/detailed-design'
 import { Route as DesignSelectionRouteImport } from './routes/design-selection'
 import { Route as DesignOptionsRouteImport } from './routes/design-options'
 import { Route as BackgroundRouteImport } from './routes/background'
@@ -24,6 +25,11 @@ const ProjectDetailsRoute = ProjectDetailsRouteImport.update({
 const ProblemCriteriaRoute = ProblemCriteriaRouteImport.update({
   id: '/problem-criteria',
   path: '/problem-criteria',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DetailedDesignRoute = DetailedDesignRouteImport.update({
+  id: '/detailed-design',
+  path: '/detailed-design',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DesignSelectionRoute = DesignSelectionRouteImport.update({
@@ -52,6 +58,7 @@ export interface FileRoutesByFullPath {
   '/background': typeof BackgroundRoute
   '/design-options': typeof DesignOptionsRoute
   '/design-selection': typeof DesignSelectionRoute
+  '/detailed-design': typeof DetailedDesignRoute
   '/problem-criteria': typeof ProblemCriteriaRoute
   '/project-details': typeof ProjectDetailsRoute
 }
@@ -60,6 +67,7 @@ export interface FileRoutesByTo {
   '/background': typeof BackgroundRoute
   '/design-options': typeof DesignOptionsRoute
   '/design-selection': typeof DesignSelectionRoute
+  '/detailed-design': typeof DetailedDesignRoute
   '/problem-criteria': typeof ProblemCriteriaRoute
   '/project-details': typeof ProjectDetailsRoute
 }
@@ -69,6 +77,7 @@ export interface FileRoutesById {
   '/background': typeof BackgroundRoute
   '/design-options': typeof DesignOptionsRoute
   '/design-selection': typeof DesignSelectionRoute
+  '/detailed-design': typeof DetailedDesignRoute
   '/problem-criteria': typeof ProblemCriteriaRoute
   '/project-details': typeof ProjectDetailsRoute
 }
@@ -79,6 +88,7 @@ export interface FileRouteTypes {
     | '/background'
     | '/design-options'
     | '/design-selection'
+    | '/detailed-design'
     | '/problem-criteria'
     | '/project-details'
   fileRoutesByTo: FileRoutesByTo
@@ -87,6 +97,7 @@ export interface FileRouteTypes {
     | '/background'
     | '/design-options'
     | '/design-selection'
+    | '/detailed-design'
     | '/problem-criteria'
     | '/project-details'
   id:
@@ -95,6 +106,7 @@ export interface FileRouteTypes {
     | '/background'
     | '/design-options'
     | '/design-selection'
+    | '/detailed-design'
     | '/problem-criteria'
     | '/project-details'
   fileRoutesById: FileRoutesById
@@ -104,6 +116,7 @@ export interface RootRouteChildren {
   BackgroundRoute: typeof BackgroundRoute
   DesignOptionsRoute: typeof DesignOptionsRoute
   DesignSelectionRoute: typeof DesignSelectionRoute
+  DetailedDesignRoute: typeof DetailedDesignRoute
   ProblemCriteriaRoute: typeof ProblemCriteriaRoute
   ProjectDetailsRoute: typeof ProjectDetailsRoute
 }
@@ -122,6 +135,13 @@ declare module '@tanstack/react-router' {
       path: '/problem-criteria'
       fullPath: '/problem-criteria'
       preLoaderRoute: typeof ProblemCriteriaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/detailed-design': {
+      id: '/detailed-design'
+      path: '/detailed-design'
+      fullPath: '/detailed-design'
+      preLoaderRoute: typeof DetailedDesignRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/design-selection': {
@@ -160,6 +180,7 @@ const rootRouteChildren: RootRouteChildren = {
   BackgroundRoute: BackgroundRoute,
   DesignOptionsRoute: DesignOptionsRoute,
   DesignSelectionRoute: DesignSelectionRoute,
+  DetailedDesignRoute: DetailedDesignRoute,
   ProblemCriteriaRoute: ProblemCriteriaRoute,
   ProjectDetailsRoute: ProjectDetailsRoute,
 }
