@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as RecommendationsRouteImport } from './routes/recommendations'
 import { Route as PrototypingRouteImport } from './routes/prototyping'
 import { Route as ProjectDetailsRouteImport } from './routes/project-details'
 import { Route as ProblemCriteriaRouteImport } from './routes/problem-criteria'
@@ -21,6 +22,11 @@ import { Route as CostAnalysisRouteImport } from './routes/cost-analysis'
 import { Route as BackgroundRouteImport } from './routes/background'
 import { Route as IndexRouteImport } from './routes/index'
 
+const RecommendationsRoute = RecommendationsRouteImport.update({
+  id: '/recommendations',
+  path: '/recommendations',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const PrototypingRoute = PrototypingRouteImport.update({
   id: '/prototyping',
   path: '/prototyping',
@@ -89,6 +95,7 @@ export interface FileRoutesByFullPath {
   '/problem-criteria': typeof ProblemCriteriaRoute
   '/project-details': typeof ProjectDetailsRoute
   '/prototyping': typeof PrototypingRoute
+  '/recommendations': typeof RecommendationsRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -102,6 +109,7 @@ export interface FileRoutesByTo {
   '/problem-criteria': typeof ProblemCriteriaRoute
   '/project-details': typeof ProjectDetailsRoute
   '/prototyping': typeof PrototypingRoute
+  '/recommendations': typeof RecommendationsRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -116,6 +124,7 @@ export interface FileRoutesById {
   '/problem-criteria': typeof ProblemCriteriaRoute
   '/project-details': typeof ProjectDetailsRoute
   '/prototyping': typeof PrototypingRoute
+  '/recommendations': typeof RecommendationsRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -131,6 +140,7 @@ export interface FileRouteTypes {
     | '/problem-criteria'
     | '/project-details'
     | '/prototyping'
+    | '/recommendations'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -144,6 +154,7 @@ export interface FileRouteTypes {
     | '/problem-criteria'
     | '/project-details'
     | '/prototyping'
+    | '/recommendations'
   id:
     | '__root__'
     | '/'
@@ -157,6 +168,7 @@ export interface FileRouteTypes {
     | '/problem-criteria'
     | '/project-details'
     | '/prototyping'
+    | '/recommendations'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -171,10 +183,18 @@ export interface RootRouteChildren {
   ProblemCriteriaRoute: typeof ProblemCriteriaRoute
   ProjectDetailsRoute: typeof ProjectDetailsRoute
   PrototypingRoute: typeof PrototypingRoute
+  RecommendationsRoute: typeof RecommendationsRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/recommendations': {
+      id: '/recommendations'
+      path: '/recommendations'
+      fullPath: '/recommendations'
+      preLoaderRoute: typeof RecommendationsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/prototyping': {
       id: '/prototyping'
       path: '/prototyping'
@@ -267,6 +287,7 @@ const rootRouteChildren: RootRouteChildren = {
   ProblemCriteriaRoute: ProblemCriteriaRoute,
   ProjectDetailsRoute: ProjectDetailsRoute,
   PrototypingRoute: PrototypingRoute,
+  RecommendationsRoute: RecommendationsRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
