@@ -9,8 +9,111 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as ReferencesRouteImport } from './routes/references'
+import { Route as RecommendationsRouteImport } from './routes/recommendations'
+import { Route as PrototypingRouteImport } from './routes/prototyping'
+import { Route as ProjectDetailsRouteImport } from './routes/project-details'
+import { Route as ProblemCriteriaRouteImport } from './routes/problem-criteria'
+import { Route as OtherConsiderationsRouteImport } from './routes/other-considerations'
+import { Route as ImplementationRouteImport } from './routes/implementation'
+import { Route as DetailedDesignRouteImport } from './routes/detailed-design'
+import { Route as DesignSelectionRouteImport } from './routes/design-selection'
+import { Route as DesignOptionsRouteImport } from './routes/design-options'
+import { Route as CostAnalysisRouteImport } from './routes/cost-analysis'
+import { Route as BackgroundRouteImport } from './routes/background'
+import { Route as Appendix5PromptLogRouteImport } from './routes/appendix-5-prompt-log'
+import { Route as Appendix4TestingResultsRouteImport } from './routes/appendix-4-testing-results'
+import { Route as Appendix3PrototypeDetailsRouteImport } from './routes/appendix-3-prototype-details'
+import { Route as Appendix2MeetingMinutesRouteImport } from './routes/appendix-2-meeting-minutes'
+import { Route as Appendix1GroupCharterRouteImport } from './routes/appendix-1-group-charter'
 import { Route as IndexRouteImport } from './routes/index'
 
+const ReferencesRoute = ReferencesRouteImport.update({
+  id: '/references',
+  path: '/references',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RecommendationsRoute = RecommendationsRouteImport.update({
+  id: '/recommendations',
+  path: '/recommendations',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PrototypingRoute = PrototypingRouteImport.update({
+  id: '/prototyping',
+  path: '/prototyping',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ProjectDetailsRoute = ProjectDetailsRouteImport.update({
+  id: '/project-details',
+  path: '/project-details',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ProblemCriteriaRoute = ProblemCriteriaRouteImport.update({
+  id: '/problem-criteria',
+  path: '/problem-criteria',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OtherConsiderationsRoute = OtherConsiderationsRouteImport.update({
+  id: '/other-considerations',
+  path: '/other-considerations',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ImplementationRoute = ImplementationRouteImport.update({
+  id: '/implementation',
+  path: '/implementation',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DetailedDesignRoute = DetailedDesignRouteImport.update({
+  id: '/detailed-design',
+  path: '/detailed-design',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DesignSelectionRoute = DesignSelectionRouteImport.update({
+  id: '/design-selection',
+  path: '/design-selection',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DesignOptionsRoute = DesignOptionsRouteImport.update({
+  id: '/design-options',
+  path: '/design-options',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CostAnalysisRoute = CostAnalysisRouteImport.update({
+  id: '/cost-analysis',
+  path: '/cost-analysis',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BackgroundRoute = BackgroundRouteImport.update({
+  id: '/background',
+  path: '/background',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const Appendix5PromptLogRoute = Appendix5PromptLogRouteImport.update({
+  id: '/appendix-5-prompt-log',
+  path: '/appendix-5-prompt-log',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const Appendix4TestingResultsRoute = Appendix4TestingResultsRouteImport.update({
+  id: '/appendix-4-testing-results',
+  path: '/appendix-4-testing-results',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const Appendix3PrototypeDetailsRoute =
+  Appendix3PrototypeDetailsRouteImport.update({
+    id: '/appendix-3-prototype-details',
+    path: '/appendix-3-prototype-details',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const Appendix2MeetingMinutesRoute = Appendix2MeetingMinutesRouteImport.update({
+  id: '/appendix-2-meeting-minutes',
+  path: '/appendix-2-meeting-minutes',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const Appendix1GroupCharterRoute = Appendix1GroupCharterRouteImport.update({
+  id: '/appendix-1-group-charter',
+  path: '/appendix-1-group-charter',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -19,28 +122,270 @@ const IndexRoute = IndexRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/appendix-1-group-charter': typeof Appendix1GroupCharterRoute
+  '/appendix-2-meeting-minutes': typeof Appendix2MeetingMinutesRoute
+  '/appendix-3-prototype-details': typeof Appendix3PrototypeDetailsRoute
+  '/appendix-4-testing-results': typeof Appendix4TestingResultsRoute
+  '/appendix-5-prompt-log': typeof Appendix5PromptLogRoute
+  '/background': typeof BackgroundRoute
+  '/cost-analysis': typeof CostAnalysisRoute
+  '/design-options': typeof DesignOptionsRoute
+  '/design-selection': typeof DesignSelectionRoute
+  '/detailed-design': typeof DetailedDesignRoute
+  '/implementation': typeof ImplementationRoute
+  '/other-considerations': typeof OtherConsiderationsRoute
+  '/problem-criteria': typeof ProblemCriteriaRoute
+  '/project-details': typeof ProjectDetailsRoute
+  '/prototyping': typeof PrototypingRoute
+  '/recommendations': typeof RecommendationsRoute
+  '/references': typeof ReferencesRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/appendix-1-group-charter': typeof Appendix1GroupCharterRoute
+  '/appendix-2-meeting-minutes': typeof Appendix2MeetingMinutesRoute
+  '/appendix-3-prototype-details': typeof Appendix3PrototypeDetailsRoute
+  '/appendix-4-testing-results': typeof Appendix4TestingResultsRoute
+  '/appendix-5-prompt-log': typeof Appendix5PromptLogRoute
+  '/background': typeof BackgroundRoute
+  '/cost-analysis': typeof CostAnalysisRoute
+  '/design-options': typeof DesignOptionsRoute
+  '/design-selection': typeof DesignSelectionRoute
+  '/detailed-design': typeof DetailedDesignRoute
+  '/implementation': typeof ImplementationRoute
+  '/other-considerations': typeof OtherConsiderationsRoute
+  '/problem-criteria': typeof ProblemCriteriaRoute
+  '/project-details': typeof ProjectDetailsRoute
+  '/prototyping': typeof PrototypingRoute
+  '/recommendations': typeof RecommendationsRoute
+  '/references': typeof ReferencesRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/appendix-1-group-charter': typeof Appendix1GroupCharterRoute
+  '/appendix-2-meeting-minutes': typeof Appendix2MeetingMinutesRoute
+  '/appendix-3-prototype-details': typeof Appendix3PrototypeDetailsRoute
+  '/appendix-4-testing-results': typeof Appendix4TestingResultsRoute
+  '/appendix-5-prompt-log': typeof Appendix5PromptLogRoute
+  '/background': typeof BackgroundRoute
+  '/cost-analysis': typeof CostAnalysisRoute
+  '/design-options': typeof DesignOptionsRoute
+  '/design-selection': typeof DesignSelectionRoute
+  '/detailed-design': typeof DetailedDesignRoute
+  '/implementation': typeof ImplementationRoute
+  '/other-considerations': typeof OtherConsiderationsRoute
+  '/problem-criteria': typeof ProblemCriteriaRoute
+  '/project-details': typeof ProjectDetailsRoute
+  '/prototyping': typeof PrototypingRoute
+  '/recommendations': typeof RecommendationsRoute
+  '/references': typeof ReferencesRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/appendix-1-group-charter'
+    | '/appendix-2-meeting-minutes'
+    | '/appendix-3-prototype-details'
+    | '/appendix-4-testing-results'
+    | '/appendix-5-prompt-log'
+    | '/background'
+    | '/cost-analysis'
+    | '/design-options'
+    | '/design-selection'
+    | '/detailed-design'
+    | '/implementation'
+    | '/other-considerations'
+    | '/problem-criteria'
+    | '/project-details'
+    | '/prototyping'
+    | '/recommendations'
+    | '/references'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/appendix-1-group-charter'
+    | '/appendix-2-meeting-minutes'
+    | '/appendix-3-prototype-details'
+    | '/appendix-4-testing-results'
+    | '/appendix-5-prompt-log'
+    | '/background'
+    | '/cost-analysis'
+    | '/design-options'
+    | '/design-selection'
+    | '/detailed-design'
+    | '/implementation'
+    | '/other-considerations'
+    | '/problem-criteria'
+    | '/project-details'
+    | '/prototyping'
+    | '/recommendations'
+    | '/references'
+  id:
+    | '__root__'
+    | '/'
+    | '/appendix-1-group-charter'
+    | '/appendix-2-meeting-minutes'
+    | '/appendix-3-prototype-details'
+    | '/appendix-4-testing-results'
+    | '/appendix-5-prompt-log'
+    | '/background'
+    | '/cost-analysis'
+    | '/design-options'
+    | '/design-selection'
+    | '/detailed-design'
+    | '/implementation'
+    | '/other-considerations'
+    | '/problem-criteria'
+    | '/project-details'
+    | '/prototyping'
+    | '/recommendations'
+    | '/references'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  Appendix1GroupCharterRoute: typeof Appendix1GroupCharterRoute
+  Appendix2MeetingMinutesRoute: typeof Appendix2MeetingMinutesRoute
+  Appendix3PrototypeDetailsRoute: typeof Appendix3PrototypeDetailsRoute
+  Appendix4TestingResultsRoute: typeof Appendix4TestingResultsRoute
+  Appendix5PromptLogRoute: typeof Appendix5PromptLogRoute
+  BackgroundRoute: typeof BackgroundRoute
+  CostAnalysisRoute: typeof CostAnalysisRoute
+  DesignOptionsRoute: typeof DesignOptionsRoute
+  DesignSelectionRoute: typeof DesignSelectionRoute
+  DetailedDesignRoute: typeof DetailedDesignRoute
+  ImplementationRoute: typeof ImplementationRoute
+  OtherConsiderationsRoute: typeof OtherConsiderationsRoute
+  ProblemCriteriaRoute: typeof ProblemCriteriaRoute
+  ProjectDetailsRoute: typeof ProjectDetailsRoute
+  PrototypingRoute: typeof PrototypingRoute
+  RecommendationsRoute: typeof RecommendationsRoute
+  ReferencesRoute: typeof ReferencesRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/references': {
+      id: '/references'
+      path: '/references'
+      fullPath: '/references'
+      preLoaderRoute: typeof ReferencesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/recommendations': {
+      id: '/recommendations'
+      path: '/recommendations'
+      fullPath: '/recommendations'
+      preLoaderRoute: typeof RecommendationsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/prototyping': {
+      id: '/prototyping'
+      path: '/prototyping'
+      fullPath: '/prototyping'
+      preLoaderRoute: typeof PrototypingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/project-details': {
+      id: '/project-details'
+      path: '/project-details'
+      fullPath: '/project-details'
+      preLoaderRoute: typeof ProjectDetailsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/problem-criteria': {
+      id: '/problem-criteria'
+      path: '/problem-criteria'
+      fullPath: '/problem-criteria'
+      preLoaderRoute: typeof ProblemCriteriaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/other-considerations': {
+      id: '/other-considerations'
+      path: '/other-considerations'
+      fullPath: '/other-considerations'
+      preLoaderRoute: typeof OtherConsiderationsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/implementation': {
+      id: '/implementation'
+      path: '/implementation'
+      fullPath: '/implementation'
+      preLoaderRoute: typeof ImplementationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/detailed-design': {
+      id: '/detailed-design'
+      path: '/detailed-design'
+      fullPath: '/detailed-design'
+      preLoaderRoute: typeof DetailedDesignRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/design-selection': {
+      id: '/design-selection'
+      path: '/design-selection'
+      fullPath: '/design-selection'
+      preLoaderRoute: typeof DesignSelectionRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/design-options': {
+      id: '/design-options'
+      path: '/design-options'
+      fullPath: '/design-options'
+      preLoaderRoute: typeof DesignOptionsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/cost-analysis': {
+      id: '/cost-analysis'
+      path: '/cost-analysis'
+      fullPath: '/cost-analysis'
+      preLoaderRoute: typeof CostAnalysisRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/background': {
+      id: '/background'
+      path: '/background'
+      fullPath: '/background'
+      preLoaderRoute: typeof BackgroundRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/appendix-5-prompt-log': {
+      id: '/appendix-5-prompt-log'
+      path: '/appendix-5-prompt-log'
+      fullPath: '/appendix-5-prompt-log'
+      preLoaderRoute: typeof Appendix5PromptLogRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/appendix-4-testing-results': {
+      id: '/appendix-4-testing-results'
+      path: '/appendix-4-testing-results'
+      fullPath: '/appendix-4-testing-results'
+      preLoaderRoute: typeof Appendix4TestingResultsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/appendix-3-prototype-details': {
+      id: '/appendix-3-prototype-details'
+      path: '/appendix-3-prototype-details'
+      fullPath: '/appendix-3-prototype-details'
+      preLoaderRoute: typeof Appendix3PrototypeDetailsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/appendix-2-meeting-minutes': {
+      id: '/appendix-2-meeting-minutes'
+      path: '/appendix-2-meeting-minutes'
+      fullPath: '/appendix-2-meeting-minutes'
+      preLoaderRoute: typeof Appendix2MeetingMinutesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/appendix-1-group-charter': {
+      id: '/appendix-1-group-charter'
+      path: '/appendix-1-group-charter'
+      fullPath: '/appendix-1-group-charter'
+      preLoaderRoute: typeof Appendix1GroupCharterRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -53,17 +398,24 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  Appendix1GroupCharterRoute: Appendix1GroupCharterRoute,
+  Appendix2MeetingMinutesRoute: Appendix2MeetingMinutesRoute,
+  Appendix3PrototypeDetailsRoute: Appendix3PrototypeDetailsRoute,
+  Appendix4TestingResultsRoute: Appendix4TestingResultsRoute,
+  Appendix5PromptLogRoute: Appendix5PromptLogRoute,
+  BackgroundRoute: BackgroundRoute,
+  CostAnalysisRoute: CostAnalysisRoute,
+  DesignOptionsRoute: DesignOptionsRoute,
+  DesignSelectionRoute: DesignSelectionRoute,
+  DetailedDesignRoute: DetailedDesignRoute,
+  ImplementationRoute: ImplementationRoute,
+  OtherConsiderationsRoute: OtherConsiderationsRoute,
+  ProblemCriteriaRoute: ProblemCriteriaRoute,
+  ProjectDetailsRoute: ProjectDetailsRoute,
+  PrototypingRoute: PrototypingRoute,
+  RecommendationsRoute: RecommendationsRoute,
+  ReferencesRoute: ReferencesRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { startInstance } from './start.ts'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-    config: Awaited<ReturnType<typeof startInstance.getOptions>>
-  }
-}
