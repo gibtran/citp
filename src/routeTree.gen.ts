@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as PrototypingRouteImport } from './routes/prototyping'
 import { Route as ProjectDetailsRouteImport } from './routes/project-details'
 import { Route as ProblemCriteriaRouteImport } from './routes/problem-criteria'
+import { Route as ImplementationRouteImport } from './routes/implementation'
 import { Route as DetailedDesignRouteImport } from './routes/detailed-design'
 import { Route as DesignSelectionRouteImport } from './routes/design-selection'
 import { Route as DesignOptionsRouteImport } from './routes/design-options'
@@ -31,6 +32,11 @@ const ProjectDetailsRoute = ProjectDetailsRouteImport.update({
 const ProblemCriteriaRoute = ProblemCriteriaRouteImport.update({
   id: '/problem-criteria',
   path: '/problem-criteria',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ImplementationRoute = ImplementationRouteImport.update({
+  id: '/implementation',
+  path: '/implementation',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DetailedDesignRoute = DetailedDesignRouteImport.update({
@@ -65,6 +71,7 @@ export interface FileRoutesByFullPath {
   '/design-options': typeof DesignOptionsRoute
   '/design-selection': typeof DesignSelectionRoute
   '/detailed-design': typeof DetailedDesignRoute
+  '/implementation': typeof ImplementationRoute
   '/problem-criteria': typeof ProblemCriteriaRoute
   '/project-details': typeof ProjectDetailsRoute
   '/prototyping': typeof PrototypingRoute
@@ -75,6 +82,7 @@ export interface FileRoutesByTo {
   '/design-options': typeof DesignOptionsRoute
   '/design-selection': typeof DesignSelectionRoute
   '/detailed-design': typeof DetailedDesignRoute
+  '/implementation': typeof ImplementationRoute
   '/problem-criteria': typeof ProblemCriteriaRoute
   '/project-details': typeof ProjectDetailsRoute
   '/prototyping': typeof PrototypingRoute
@@ -86,6 +94,7 @@ export interface FileRoutesById {
   '/design-options': typeof DesignOptionsRoute
   '/design-selection': typeof DesignSelectionRoute
   '/detailed-design': typeof DetailedDesignRoute
+  '/implementation': typeof ImplementationRoute
   '/problem-criteria': typeof ProblemCriteriaRoute
   '/project-details': typeof ProjectDetailsRoute
   '/prototyping': typeof PrototypingRoute
@@ -98,6 +107,7 @@ export interface FileRouteTypes {
     | '/design-options'
     | '/design-selection'
     | '/detailed-design'
+    | '/implementation'
     | '/problem-criteria'
     | '/project-details'
     | '/prototyping'
@@ -108,6 +118,7 @@ export interface FileRouteTypes {
     | '/design-options'
     | '/design-selection'
     | '/detailed-design'
+    | '/implementation'
     | '/problem-criteria'
     | '/project-details'
     | '/prototyping'
@@ -118,6 +129,7 @@ export interface FileRouteTypes {
     | '/design-options'
     | '/design-selection'
     | '/detailed-design'
+    | '/implementation'
     | '/problem-criteria'
     | '/project-details'
     | '/prototyping'
@@ -129,6 +141,7 @@ export interface RootRouteChildren {
   DesignOptionsRoute: typeof DesignOptionsRoute
   DesignSelectionRoute: typeof DesignSelectionRoute
   DetailedDesignRoute: typeof DetailedDesignRoute
+  ImplementationRoute: typeof ImplementationRoute
   ProblemCriteriaRoute: typeof ProblemCriteriaRoute
   ProjectDetailsRoute: typeof ProjectDetailsRoute
   PrototypingRoute: typeof PrototypingRoute
@@ -155,6 +168,13 @@ declare module '@tanstack/react-router' {
       path: '/problem-criteria'
       fullPath: '/problem-criteria'
       preLoaderRoute: typeof ProblemCriteriaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/implementation': {
+      id: '/implementation'
+      path: '/implementation'
+      fullPath: '/implementation'
+      preLoaderRoute: typeof ImplementationRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/detailed-design': {
@@ -201,6 +221,7 @@ const rootRouteChildren: RootRouteChildren = {
   DesignOptionsRoute: DesignOptionsRoute,
   DesignSelectionRoute: DesignSelectionRoute,
   DetailedDesignRoute: DetailedDesignRoute,
+  ImplementationRoute: ImplementationRoute,
   ProblemCriteriaRoute: ProblemCriteriaRoute,
   ProjectDetailsRoute: ProjectDetailsRoute,
   PrototypingRoute: PrototypingRoute,
