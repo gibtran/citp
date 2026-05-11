@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as PrototypingRouteImport } from './routes/prototyping'
 import { Route as ProjectDetailsRouteImport } from './routes/project-details'
 import { Route as ProblemCriteriaRouteImport } from './routes/problem-criteria'
 import { Route as DetailedDesignRouteImport } from './routes/detailed-design'
@@ -17,6 +18,11 @@ import { Route as DesignOptionsRouteImport } from './routes/design-options'
 import { Route as BackgroundRouteImport } from './routes/background'
 import { Route as IndexRouteImport } from './routes/index'
 
+const PrototypingRoute = PrototypingRouteImport.update({
+  id: '/prototyping',
+  path: '/prototyping',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ProjectDetailsRoute = ProjectDetailsRouteImport.update({
   id: '/project-details',
   path: '/project-details',
@@ -61,6 +67,7 @@ export interface FileRoutesByFullPath {
   '/detailed-design': typeof DetailedDesignRoute
   '/problem-criteria': typeof ProblemCriteriaRoute
   '/project-details': typeof ProjectDetailsRoute
+  '/prototyping': typeof PrototypingRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -70,6 +77,7 @@ export interface FileRoutesByTo {
   '/detailed-design': typeof DetailedDesignRoute
   '/problem-criteria': typeof ProblemCriteriaRoute
   '/project-details': typeof ProjectDetailsRoute
+  '/prototyping': typeof PrototypingRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -80,6 +88,7 @@ export interface FileRoutesById {
   '/detailed-design': typeof DetailedDesignRoute
   '/problem-criteria': typeof ProblemCriteriaRoute
   '/project-details': typeof ProjectDetailsRoute
+  '/prototyping': typeof PrototypingRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -91,6 +100,7 @@ export interface FileRouteTypes {
     | '/detailed-design'
     | '/problem-criteria'
     | '/project-details'
+    | '/prototyping'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -100,6 +110,7 @@ export interface FileRouteTypes {
     | '/detailed-design'
     | '/problem-criteria'
     | '/project-details'
+    | '/prototyping'
   id:
     | '__root__'
     | '/'
@@ -109,6 +120,7 @@ export interface FileRouteTypes {
     | '/detailed-design'
     | '/problem-criteria'
     | '/project-details'
+    | '/prototyping'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -119,10 +131,18 @@ export interface RootRouteChildren {
   DetailedDesignRoute: typeof DetailedDesignRoute
   ProblemCriteriaRoute: typeof ProblemCriteriaRoute
   ProjectDetailsRoute: typeof ProjectDetailsRoute
+  PrototypingRoute: typeof PrototypingRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/prototyping': {
+      id: '/prototyping'
+      path: '/prototyping'
+      fullPath: '/prototyping'
+      preLoaderRoute: typeof PrototypingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/project-details': {
       id: '/project-details'
       path: '/project-details'
@@ -183,6 +203,7 @@ const rootRouteChildren: RootRouteChildren = {
   DetailedDesignRoute: DetailedDesignRoute,
   ProblemCriteriaRoute: ProblemCriteriaRoute,
   ProjectDetailsRoute: ProjectDetailsRoute,
+  PrototypingRoute: PrototypingRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
