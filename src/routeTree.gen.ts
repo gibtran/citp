@@ -16,6 +16,7 @@ import { Route as ImplementationRouteImport } from './routes/implementation'
 import { Route as DetailedDesignRouteImport } from './routes/detailed-design'
 import { Route as DesignSelectionRouteImport } from './routes/design-selection'
 import { Route as DesignOptionsRouteImport } from './routes/design-options'
+import { Route as CostAnalysisRouteImport } from './routes/cost-analysis'
 import { Route as BackgroundRouteImport } from './routes/background'
 import { Route as IndexRouteImport } from './routes/index'
 
@@ -54,6 +55,11 @@ const DesignOptionsRoute = DesignOptionsRouteImport.update({
   path: '/design-options',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CostAnalysisRoute = CostAnalysisRouteImport.update({
+  id: '/cost-analysis',
+  path: '/cost-analysis',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BackgroundRoute = BackgroundRouteImport.update({
   id: '/background',
   path: '/background',
@@ -68,6 +74,7 @@ const IndexRoute = IndexRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/background': typeof BackgroundRoute
+  '/cost-analysis': typeof CostAnalysisRoute
   '/design-options': typeof DesignOptionsRoute
   '/design-selection': typeof DesignSelectionRoute
   '/detailed-design': typeof DetailedDesignRoute
@@ -79,6 +86,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/background': typeof BackgroundRoute
+  '/cost-analysis': typeof CostAnalysisRoute
   '/design-options': typeof DesignOptionsRoute
   '/design-selection': typeof DesignSelectionRoute
   '/detailed-design': typeof DetailedDesignRoute
@@ -91,6 +99,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/background': typeof BackgroundRoute
+  '/cost-analysis': typeof CostAnalysisRoute
   '/design-options': typeof DesignOptionsRoute
   '/design-selection': typeof DesignSelectionRoute
   '/detailed-design': typeof DetailedDesignRoute
@@ -104,6 +113,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/background'
+    | '/cost-analysis'
     | '/design-options'
     | '/design-selection'
     | '/detailed-design'
@@ -115,6 +125,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/background'
+    | '/cost-analysis'
     | '/design-options'
     | '/design-selection'
     | '/detailed-design'
@@ -126,6 +137,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/background'
+    | '/cost-analysis'
     | '/design-options'
     | '/design-selection'
     | '/detailed-design'
@@ -138,6 +150,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   BackgroundRoute: typeof BackgroundRoute
+  CostAnalysisRoute: typeof CostAnalysisRoute
   DesignOptionsRoute: typeof DesignOptionsRoute
   DesignSelectionRoute: typeof DesignSelectionRoute
   DetailedDesignRoute: typeof DetailedDesignRoute
@@ -198,6 +211,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DesignOptionsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/cost-analysis': {
+      id: '/cost-analysis'
+      path: '/cost-analysis'
+      fullPath: '/cost-analysis'
+      preLoaderRoute: typeof CostAnalysisRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/background': {
       id: '/background'
       path: '/background'
@@ -218,6 +238,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   BackgroundRoute: BackgroundRoute,
+  CostAnalysisRoute: CostAnalysisRoute,
   DesignOptionsRoute: DesignOptionsRoute,
   DesignSelectionRoute: DesignSelectionRoute,
   DetailedDesignRoute: DetailedDesignRoute,
