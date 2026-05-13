@@ -16,9 +16,7 @@ function Page() {
     <PageShell eyebrow="8 · Prototyping" title="Prototyping">
       <h2>What was prototyped and why</h2>
       <p>
-        A scaled physical model and a partial full-scale frame mock-up were prototyped
-        to validate the modular assembly approach, structural connections, and the
-        layout of the storage and workspace zones.
+        what the fuck
       </p>
 
       <h2>How the prototype was constructed</h2>
