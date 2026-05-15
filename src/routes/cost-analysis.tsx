@@ -20,7 +20,7 @@ function Page() {
           <tr><th>Item</th><th>Quantity</th><th>Est. unit cost (AUD)</th><th>Total (AUD)</th><th>Source / assumption</th></tr>
         </thead>
         <tbody>
-          <tr><td>Aluminium frame extrusions</td><td><Placeholder>TBC</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td>Local supplier quote</td></tr>
+          <tr><td>Aluminium Panel</td><td><Placeholder>$600</Placeholder></td><td><Placeholder>$2,400</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td>Local supplier quote</td></tr>
           <tr><td>Composite floor panel</td><td><Placeholder>TBC</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td>Manufacturer estimate</td></tr>
           <tr><td>Roof panels &amp; insulation</td><td><Placeholder>TBC</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td>Industry pricing</td></tr>
           <tr><td>Solar PV (≈400 W)</td><td>2</td><td><Placeholder>$ TBC</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td>Off-grid solar supplier</td></tr>
