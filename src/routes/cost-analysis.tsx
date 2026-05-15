@@ -17,7 +17,7 @@ function Page() {
       <h2>Bill of materials</h2>
       <table>
         <thead>
-          <tr><th>Item</th><th>Quantity</th><th>Est. unit cost (AUD)</th><th>Total (AUD)</th><th>Source / assumption</th></tr>
+          <tr><th>Iem</th><th>Quantity</th><th>Est. unit cost (AUD)</th><th>Total (AUD)</th><th>Source / assumption</th></tr>
         </thead>
         <tbody>
           <tr><td>Aluminium Panel</td><td><Placeholder>$600</Placeholder></td><td><Placeholder>$2,400</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td>Local supplier quote</td></tr>
