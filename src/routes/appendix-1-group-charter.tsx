@@ -34,7 +34,7 @@ function Page() {
             <td>Team member</td>
             <td>
               <Placeholder>
-                Project details & Background information of Lama Lama Country
+                Executive Summary, Project Details, Background information of Lama Lama
               </Placeholder>
             </td>
           </tr>
@@ -44,7 +44,7 @@ function Page() {
             </td>
             <td>Team member</td>
             <td>
-              <Placeholder>Design Options & Recommendations</Placeholder>
+              <Placeholder>Desgin Options, Recommendations</Placeholder>
             </td>
           </tr>
           <tr>
@@ -53,7 +53,7 @@ function Page() {
             </td>
             <td>Team member</td>
             <td>
-              <Placeholder>Detailed design & other considerations</Placeholder>
+              <Placeholder>Detailed Design, Other Considerations</Placeholder>
             </td>
           </tr>
           <tr>
@@ -62,7 +62,7 @@ function Page() {
             </td>
             <td>Team member</td>
             <td>
-              <Placeholder>Problem & Criteria; Prototyping</Placeholder>
+              <Placeholder>Problem, Criteria, Prototyping</Placeholder>
             </td>
           </tr>
           <tr>
@@ -71,7 +71,7 @@ function Page() {
             </td>
             <td>Team member</td>
             <td>
-              <Placeholder>Implementation Plan & Cost Analysis</Placeholder>
+              <Placeholder>Implementation Plan, Cost Analysis</Placeholder>
             </td>
           </tr>
           <tr>
@@ -80,7 +80,7 @@ function Page() {
             </td>
             <td>Team member</td>
             <td>
-              <Placeholder>Design Options & Design Selection</Placeholder>
+              <Placeholder>Design Options, Design Selection</Placeholder>
             </td>
           </tr>
         </tbody>
