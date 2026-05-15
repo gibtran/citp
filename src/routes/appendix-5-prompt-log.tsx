@@ -92,13 +92,13 @@ function Page() {
 
           <tr>
             <td id={"website_layout_prompt"}>
-              <a href="/appendix-5-prompt-log">Website layout and structure</a>
+              <a href="https://lovable.dev/dashboard">Website layout and structure</a>
             </td>
             <td>
-              <Placeholder>11/05/2026</Placeholder>
+              <Placeholder>10/05/2026</Placeholder>
             </td>
             <td>
-              <Placeholder>ChatGPT</Placeholder>
+              <Placeholder>Loveable Dev</Placeholder>
             </td>
             <td>
               <Placeholder>
