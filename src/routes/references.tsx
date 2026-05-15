@@ -50,6 +50,26 @@ function Page() {
             https://www.qld.gov.au/__data/assets/pdf_file/0019/68140/cape-york-climate-change-impact-summary.pdf
           </a>
         </li>
+
+
+
+
+        <li style={{ paddingTop: "40px" }}>
+          <a
+            href="/appendix-5-prompt-log"
+            style={{
+              color: "#5b5b5b",
+              textDecoration: "none",
+              fontSize: "15px",
+              fontWeight: "700",
+              borderBottom: "1px solid #bdb4a8",
+              paddingBottom: "2px",
+              transition: "0.2s ease",
+            }}
+          >
+            Click here for AI references (prompts){" "}
+          </a>
+        </li>
       </ol>
     </PageShell>
   );
