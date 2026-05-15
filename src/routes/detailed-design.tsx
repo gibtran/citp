@@ -53,8 +53,8 @@ function Page() {
             width: "100%",
           }}
         >
-          Figure 5: Unit of Modular Service Hubs showing modularity and construction design.
-          (Modelled in Blender)
+          Figure 5: Panel of Modular Service Hubs showing modularity and construction design
+          (Modelled in Blender).
         </figcaption>
       </figure>
 
