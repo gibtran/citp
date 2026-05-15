@@ -121,7 +121,6 @@ function Page() {
           }}
         >
           Figure 6: System block diagram showing water, equipment and access flows.
-          Minecraft)
         </figcaption>
       </figure>
 
