@@ -31,7 +31,7 @@ function Page() {
             <td>
               <Placeholder>Jesse Felipe</Placeholder>
             </td>
-            <td>Project lead</td>
+            <td>Team member</td>
             <td>
               <Placeholder>
                 Project details & Background information of Lama Lama Country
@@ -44,7 +44,7 @@ function Page() {
             </td>
             <td>Team member</td>
             <td>
-              <Placeholder>email</Placeholder>
+              <Placeholder>PLACEHOLDER</Placeholder>
             </td>
           </tr>
           <tr>
@@ -53,7 +53,7 @@ function Page() {
             </td>
             <td>Team member</td>
             <td>
-              <Placeholder>email</Placeholder>
+              <Placeholder>Detailed design & other considerations</Placeholder>
             </td>
           </tr>
           <tr>
@@ -62,7 +62,7 @@ function Page() {
             </td>
             <td>Team member</td>
             <td>
-              <Placeholder>email</Placeholder>
+              <Placeholder>PLACEHOLDER</Placeholder>
             </td>
           </tr>
           <tr>
@@ -71,7 +71,7 @@ function Page() {
             </td>
             <td>Team member</td>
             <td>
-              <Placeholder>email</Placeholder>
+              <Placeholder>PLACEHOLDER</Placeholder>
             </td>
           </tr>
           <tr>
@@ -80,7 +80,7 @@ function Page() {
             </td>
             <td>Team member</td>
             <td>
-              <Placeholder>email</Placeholder>
+              <Placeholder>PLACEHOLDER</Placeholder>
             </td>
           </tr>
         </tbody>
@@ -97,8 +97,8 @@ function Page() {
 
       <h2>Communication</h2>
       <p>
-        Primary channel: <Placeholder>Whats App</Placeholder> Second channel:{" "}
-        <Placeholder>Zoom meeting</Placeholder>
+        Primary channel: <Placeholder>WhatsApp</Placeholder> Second channel:{" "}
+        <Placeholder>Zoom meetings</Placeholder>
       </p>
 
       <h2>Conflict resolution</h2>

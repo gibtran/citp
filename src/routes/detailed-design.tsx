@@ -53,19 +53,21 @@ function Page() {
             width: "100%",
           }}
         >
-          Figure 5: Unit of Modular Service Hubs showing modularity and construction design. (Modelled in Blender)
+          Figure 5: Unit of Modular Service Hubs showing modularity and construction design.
+          (Modelled in Blender)
         </figcaption>
       </figure>
 
       <h2>Main physical components</h2>
       <ul className="list-disc pl-5">
         <li>
-          <strong>Aluminium frame</strong> — corrosion-resistant primary structure. Standardised to simplify stocking.
+          <strong>Aluminium frame</strong> — corrosion-resistant primary structure. Standardised to
+          simplify stocking.
         </li>
         <li>
           <strong>Timber components</strong> — Local timber is used to complete, strengthen and
-          customize the Hubs (e.g. doors, shade, furniture).
-          Handbooks with timber crafting examples are provided.
+          customize the Hubs (e.g. doors, shade, furniture). Handbooks with timber crafting examples
+          are provided.
         </li>
         <li>
           <strong>Raised floor</strong> — protects against flooding and termites; allows airflow.
@@ -95,6 +97,7 @@ function Page() {
       </p>
 
       <figure
+        id={"block_diagram_id"}
         style={{
           margin: "32px auto",
           textAlign: "center",
@@ -103,7 +106,7 @@ function Page() {
       >
         <img
           src={blockDiagram}
-          alt="Digital prototype inside view of the Modular Service Hub in Minecraft"
+          alt="Block diagram view of the Modular Service Hub"
           style={{
             width: "100%",
             display: "block",
@@ -121,6 +124,7 @@ function Page() {
           }}
         >
           Figure 6: System block diagram showing water, equipment and access flows.
+          <a href="/appendix-5-prompt-log#block_diagram_prompt"> Source</a>
         </figcaption>
       </figure>
 

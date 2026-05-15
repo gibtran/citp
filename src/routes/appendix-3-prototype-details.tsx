@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageShell, Figure, Placeholder } from "@/components/report";
+import prototypeImage4 from "../img/prototype4.png";
 import prototypeImage from "../img/prototype.png";
-import prototypeImage2 from "../img/prototype3.png";
 import prototypeImage3 from "../img/prototype2.png";
 export const Route = createFileRoute("/appendix-3-prototype-details")({
   head: () => ({
@@ -28,7 +28,8 @@ function Page() {
           style={{ width: "100%", borderRadius: "12px" }}
         />
         <figcaption>
-          Figure A3.2: Alternative digital prototype view of the Modular Service Hub.
+          Figure A3.2: Alternative digital prototype view of the Modular Service Hub (Modelled in
+          Blender).
         </figcaption>
       </figure>
       <figure>
@@ -38,7 +39,19 @@ function Page() {
           style={{ width: "100%", borderRadius: "12px" }}
         />
         <figcaption>
-          Figure A3.3: Additional digital prototype view of the Modular Service Hub.
+          Figure A3.3: Additional digital prototype view of the Modular Service Hub (Modelled in
+          Blender).
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          src={prototypeImage4}
+          alt="Digital prototype view 4"
+          style={{ width: "100%", borderRadius: "12px" }}
+        />
+        <figcaption>
+          Figure A3.4: Panel of Modular Service Hub showing modularity and construction (Modelled in
+          Blender).
         </figcaption>
       </figure>
       <h2>Assembly notes</h2>{" "}
