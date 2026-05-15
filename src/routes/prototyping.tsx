@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageShell, Figure, TableCaption } from "@/components/report";
 import prototypeImage from "../img/prototype.png";
+import prototypeImage2 from "../img/prototype3.png";
+import prototypeImage3 from "../img/prototype2.png";
 export const Route = createFileRoute("/prototyping")({
   head: () => ({
     meta: [
@@ -65,108 +67,96 @@ function Page() {
 
       <h2>How the Prototype Was Constructed</h2>
       <p>
-        The prototype was made using simple materials such as cardboard, paper, tape and glue. Each
-        module was built separately so the team could move and rearrange the layout. This helped
-        test whether the hub could be expanded in stages instead of being built as one large fixed
-        structure.
+        The prototype was developed digitally to visualise the overall layout and function of the
+        Modular Service Hub. The digital model allowed the team to explore the size, spacing, access
+        points and arrangement of the 2.5m x 2.5m modules without building a physical model
       </p>
 
-      <figure>
-        <img
-          src={prototypeImage}
-          alt="Digital prototype showing the Modular Service Hub layout"
-          style={{ width: "100%", borderRadius: "12px" }}
-        />
-        <figcaption>Figure 7: Digital prototype showing the Modular Service Hub layout.</figcaption>
-      </figure>
-
-      <h2>Testing Method</h2>
       <p>
-        The prototype was tested by reviewing it against the project’s design criteria. The team
-        focused on whether the layout was clear, whether users could move between spaces easily,
-        whether storage could be accessed safely and whether extra modules could be added later.
+        This approach was suitable at the concept stage because the main aim was to communicate the
+        design clearly and evaluate whether the modular layout could support storage, rest, work and
+        future expansion. However, the digital prototype does not test real structural strength,
+        material performance or weather resistance.
+      </p>
+
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "1fr 1fr",
+          gap: "16px",
+          alignItems: "start",
+        }}
+      >
+        <figure style={{ margin: 0 }}>
+          <img
+            src={prototypeImage2}
+            alt="Digital prototype front view of the Modular Service Hub"
+            style={{ width: "100%", borderRadius: "12px" }}
+          />
+          <figcaption style={{ textAlign: "center", fontStyle: "italic", marginTop: "8px" }}>
+            Figure 7: Digital prototype of the Modular Service Hub.
+          </figcaption>
+        </figure>
+
+        <figure style={{ margin: 0 }}>
+          <img
+            src={prototypeImage3}
+            alt="Digital prototype side view of the Modular Service Hub"
+            style={{ width: "100%", borderRadius: "12px" }}
+          />
+          <figcaption style={{ textAlign: "center", fontStyle: "italic", marginTop: "8px" }}>
+            Figure 8: Digital prototype of the Modular Service Hub.
+          </figcaption>
+        </figure>
+      </div>
+
+      <h2>Design Evaluation Method</h2>
+      <p>
+        Because the prototype was developed digitally, the evaluation focused on reviewing the
+        design concept against the project’s design criteria rather than physical testing. The team
+        considered whether the layout was clear, whether users could move between spaces logically,
+        whether storage areas appeared accessible and whether extra modules could be added in the
+        future.
       </p>
 
       <table>
         <thead>
           <tr>
-            <th>Test Focus</th>
-            <th>What Was Checked</th>
+            <th>Evaluation Focus</th>
+            <th>What Was Reviewed</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Layout</td>
-            <td>Whether the modules were arranged clearly and logically.</td>
+            <td>Layout clarity</td>
+            <td>Whether the module arrangement was clear and easy to understand.</td>
           </tr>
           <tr>
             <td>User movement</td>
-            <td>Whether users could move between spaces easily.</td>
+            <td>Whether users could move logically between storage, work and rest areas.</td>
           </tr>
           <tr>
             <td>Storage access</td>
-            <td>Whether equipment could be accessed safely and efficiently.</td>
-          </tr>
-          <tr>
-            <td>Expansion</td>
-            <td>Whether extra modules could be added later without redesigning the whole hub.</td>
-          </tr>
-          <tr>
-            <td>Practicality</td>
-            <td>Whether the design was simple enough for remote use, transport and maintenance.</td>
-          </tr>
-        </tbody>
-      </table>
-      <TableCaption>Table 7: Prototype testing method.</TableCaption>
-
-      <h2>Testing Results</h2>
-      <p>
-        The prototype showed that the modular system was easy to understand and could support
-        different functions. One module could be used for secure storage, while another could
-        provide shade, rest space and a basic work area. The testing also showed that the hub could
-        be expanded over time, which supports staged implementation when funding or community needs
-        increase.
-      </p>
-      <p>
-        However, the first layout had some weaknesses. The access points were not clear enough, and
-        the design needed more open space for airflow and movement. These issues helped the team
-        improve the design before presenting the final concept.
-      </p>
-
-      <h2>Improvements After Testing</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Issue Found</th>
-            <th>Improvement Made</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Access to storage was unclear</td>
-            <td>The storage entrance was moved closer to the main access path.</td>
-          </tr>
-          <tr>
-            <td>Layout felt too enclosed</td>
-            <td>More open side access was added to improve airflow and movement.</td>
-          </tr>
-          <tr>
-            <td>Expansion points were not obvious</td>
             <td>
-              Clear connection points were added to show where future modules could be attached.
+              Whether the storage area appeared accessible for tools, PPE, first aid equipment and
+              radios.
             </td>
           </tr>
           <tr>
-            <td>Roof design was too basic</td>
-            <td>The roof was adjusted to allow future solar panels or rainwater collection.</td>
+            <td>Future expansion</td>
+            <td>
+              Whether additional modules could be connected later without changing the whole design.
+            </td>
           </tr>
           <tr>
-            <td>Maintenance was not considered enough</td>
-            <td>Simple access points were added for checking bolts, doors and roof parts.</td>
+            <td>Remote practicality</td>
+            <td>
+              Whether the design appeared simple enough for remote use, transport and maintenance.
+            </td>
           </tr>
         </tbody>
       </table>
-      <TableCaption>Table 8: Prototype testing results and design modifications.</TableCaption>
+      <TableCaption>Table 7: Design evaluation focus for the digital prototype.</TableCaption>
 
       <h2>Prototype Limitations</h2>
       <p>

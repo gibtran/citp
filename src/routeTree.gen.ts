@@ -22,7 +22,6 @@ import { Route as DesignOptionsRouteImport } from './routes/design-options'
 import { Route as CostAnalysisRouteImport } from './routes/cost-analysis'
 import { Route as BackgroundRouteImport } from './routes/background'
 import { Route as Appendix5PromptLogRouteImport } from './routes/appendix-5-prompt-log'
-import { Route as Appendix4TestingResultsRouteImport } from './routes/appendix-4-testing-results'
 import { Route as Appendix3PrototypeDetailsRouteImport } from './routes/appendix-3-prototype-details'
 import { Route as Appendix2MeetingMinutesRouteImport } from './routes/appendix-2-meeting-minutes'
 import { Route as Appendix1GroupCharterRouteImport } from './routes/appendix-1-group-charter'
@@ -93,11 +92,6 @@ const Appendix5PromptLogRoute = Appendix5PromptLogRouteImport.update({
   path: '/appendix-5-prompt-log',
   getParentRoute: () => rootRouteImport,
 } as any)
-const Appendix4TestingResultsRoute = Appendix4TestingResultsRouteImport.update({
-  id: '/appendix-4-testing-results',
-  path: '/appendix-4-testing-results',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const Appendix3PrototypeDetailsRoute =
   Appendix3PrototypeDetailsRouteImport.update({
     id: '/appendix-3-prototype-details',
@@ -125,7 +119,6 @@ export interface FileRoutesByFullPath {
   '/appendix-1-group-charter': typeof Appendix1GroupCharterRoute
   '/appendix-2-meeting-minutes': typeof Appendix2MeetingMinutesRoute
   '/appendix-3-prototype-details': typeof Appendix3PrototypeDetailsRoute
-  '/appendix-4-testing-results': typeof Appendix4TestingResultsRoute
   '/appendix-5-prompt-log': typeof Appendix5PromptLogRoute
   '/background': typeof BackgroundRoute
   '/cost-analysis': typeof CostAnalysisRoute
@@ -145,7 +138,6 @@ export interface FileRoutesByTo {
   '/appendix-1-group-charter': typeof Appendix1GroupCharterRoute
   '/appendix-2-meeting-minutes': typeof Appendix2MeetingMinutesRoute
   '/appendix-3-prototype-details': typeof Appendix3PrototypeDetailsRoute
-  '/appendix-4-testing-results': typeof Appendix4TestingResultsRoute
   '/appendix-5-prompt-log': typeof Appendix5PromptLogRoute
   '/background': typeof BackgroundRoute
   '/cost-analysis': typeof CostAnalysisRoute
@@ -166,7 +158,6 @@ export interface FileRoutesById {
   '/appendix-1-group-charter': typeof Appendix1GroupCharterRoute
   '/appendix-2-meeting-minutes': typeof Appendix2MeetingMinutesRoute
   '/appendix-3-prototype-details': typeof Appendix3PrototypeDetailsRoute
-  '/appendix-4-testing-results': typeof Appendix4TestingResultsRoute
   '/appendix-5-prompt-log': typeof Appendix5PromptLogRoute
   '/background': typeof BackgroundRoute
   '/cost-analysis': typeof CostAnalysisRoute
@@ -188,7 +179,6 @@ export interface FileRouteTypes {
     | '/appendix-1-group-charter'
     | '/appendix-2-meeting-minutes'
     | '/appendix-3-prototype-details'
-    | '/appendix-4-testing-results'
     | '/appendix-5-prompt-log'
     | '/background'
     | '/cost-analysis'
@@ -208,7 +198,6 @@ export interface FileRouteTypes {
     | '/appendix-1-group-charter'
     | '/appendix-2-meeting-minutes'
     | '/appendix-3-prototype-details'
-    | '/appendix-4-testing-results'
     | '/appendix-5-prompt-log'
     | '/background'
     | '/cost-analysis'
@@ -228,7 +217,6 @@ export interface FileRouteTypes {
     | '/appendix-1-group-charter'
     | '/appendix-2-meeting-minutes'
     | '/appendix-3-prototype-details'
-    | '/appendix-4-testing-results'
     | '/appendix-5-prompt-log'
     | '/background'
     | '/cost-analysis'
@@ -249,7 +237,6 @@ export interface RootRouteChildren {
   Appendix1GroupCharterRoute: typeof Appendix1GroupCharterRoute
   Appendix2MeetingMinutesRoute: typeof Appendix2MeetingMinutesRoute
   Appendix3PrototypeDetailsRoute: typeof Appendix3PrototypeDetailsRoute
-  Appendix4TestingResultsRoute: typeof Appendix4TestingResultsRoute
   Appendix5PromptLogRoute: typeof Appendix5PromptLogRoute
   BackgroundRoute: typeof BackgroundRoute
   CostAnalysisRoute: typeof CostAnalysisRoute
@@ -358,13 +345,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Appendix5PromptLogRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/appendix-4-testing-results': {
-      id: '/appendix-4-testing-results'
-      path: '/appendix-4-testing-results'
-      fullPath: '/appendix-4-testing-results'
-      preLoaderRoute: typeof Appendix4TestingResultsRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/appendix-3-prototype-details': {
       id: '/appendix-3-prototype-details'
       path: '/appendix-3-prototype-details'
@@ -401,7 +381,6 @@ const rootRouteChildren: RootRouteChildren = {
   Appendix1GroupCharterRoute: Appendix1GroupCharterRoute,
   Appendix2MeetingMinutesRoute: Appendix2MeetingMinutesRoute,
   Appendix3PrototypeDetailsRoute: Appendix3PrototypeDetailsRoute,
-  Appendix4TestingResultsRoute: Appendix4TestingResultsRoute,
   Appendix5PromptLogRoute: Appendix5PromptLogRoute,
   BackgroundRoute: BackgroundRoute,
   CostAnalysisRoute: CostAnalysisRoute,

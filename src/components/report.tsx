@@ -21,8 +21,7 @@ export const APPENDIX_SECTIONS: { label: string; to: string }[] = [
   { label: "Appendix 1: Group Charter", to: "/appendix-1-group-charter" },
   { label: "Appendix 2: Meeting Minutes", to: "/appendix-2-meeting-minutes" },
   { label: "Appendix 3: Prototype Details", to: "/appendix-3-prototype-details" },
-  { label: "Appendix 4: Testing Results", to: "/appendix-4-testing-results" },
-  { label: "Appendix 5: Prompt Log", to: "/appendix-5-prompt-log" },
+  { label: "Appendix 4: Prompt Log", to: "/appendix-5-prompt-log" },
 ];
 
 export function PageShell({
@@ -106,9 +105,7 @@ export function Card({
     <div
       className={
         "rounded-lg border p-5 " +
-        (accent
-          ? "border-accent/40 bg-accent/5"
-          : "border-border bg-card")
+        (accent ? "border-accent/40 bg-accent/5" : "border-border bg-card")
       }
     >
       <h3 className="mt-0 mb-2 text-base">{title}</h3>

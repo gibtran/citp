@@ -5,7 +5,10 @@ export const Route = createFileRoute("/problem-criteria")({
   head: () => ({
     meta: [
       { title: "Problem Description and Design Criteria" },
-      { name: "description", content: "User needs statement and design criteria for the Modular Service Hub project." },
+      {
+        name: "description",
+        content: "User needs statement and design criteria for the Modular Service Hub project.",
+      },
     ],
   }),
   component: Page,
@@ -16,25 +19,27 @@ function Page() {
     <PageShell eyebrow="4 · Problem & Criteria" title="Problem Description and Design Criteria">
       <h2>User needs statement</h2>
       <p>
-        The Lama Lama Rangers and outstation users need a transportable, weather-resistant
-        facility that securely stores equipment, provides shelter for short rest periods
-        and basic work, and supplies modest off-grid power and water — so that ranger
-        operations on Country are safer, more efficient, and culturally appropriate.
+        The Lama Lama Rangers and outstation users need a transportable, weather-resistant facility
+        that securely stores equipment, provides shelter for short rest periods and basic work.
       </p>
 
       <h2>Problem and ideal future situation</h2>
       <p>
-        Currently, ranger work is constrained by the lack of secure, comfortable bases at
-        priority sites. In the ideal future situation, modular service hubs are deployed
-        across Lama Lama Country, owned and maintained by the community, allowing
-        rangers and Traditional Owners to spend more productive time on Country with
-        less reliance on external services.
+        Currently, ranger work is constrained by the lack of secure, comfortable bases at priority
+        sites. In the ideal future situation, modular service hubs are deployed across Lama Lama
+        Country, owned and maintained by the community, allowing rangers and Traditional Owners to
+        spend more productive time on Country with less reliance on external services.
       </p>
 
       <h2>Design criteria</h2>
       <table>
         <thead>
-          <tr><th>Criteria</th><th>Description</th><th>Justification</th><th>Community impact</th></tr>
+          <tr>
+            <th>Criteria</th>
+            <th>Description</th>
+            <th>Justification</th>
+            <th>Community impact</th>
+          </tr>
         </thead>
         <tbody>
           <tr>
