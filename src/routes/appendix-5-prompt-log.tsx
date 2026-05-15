@@ -5,7 +5,11 @@ export const Route = createFileRoute("/appendix-5-prompt-log")({
   head: () => ({
     meta: [
       { title: "Appendix 5 — Prompt Log" },
-      { name: "description", content: "Record of AI prompts used during the design process and how outputs were verified." },
+      {
+        name: "description",
+        content:
+          "Record of AI prompts used during the design process and how outputs were verified.",
+      },
     ],
   }),
   component: Page,
@@ -79,6 +83,36 @@ function Page() {
               <Placeholder>
                 Generated a journey map to show the use of Modular Service Hubs by Rangers and
                 Traditional Owners.
+              </Placeholder>
+            </td>
+            <td>
+              <Placeholder>Human oversight</Placeholder>
+            </td>
+          </tr>
+
+          <tr>
+            <td id={"website_layout_prompt"}>
+              <a href="/appendix-5-prompt-log">Website layout and structure</a>
+            </td>
+            <td>
+              <Placeholder>11/05/2026</Placeholder>
+            </td>
+            <td>
+              <Placeholder>ChatGPT</Placeholder>
+            </td>
+            <td>
+              <Placeholder>
+                Create a professional academic Google Sites website template for an EWB Challenge
+                engineering design report. The website should include clear navigation, section
+                headings, tables, figure placeholders and appendix pages for a Modular Service Hub
+                project.
+              </Placeholder>
+            </td>
+            <td>
+              <Placeholder>
+                Generated the website layout, page structure, section order, table ideas and
+                appendix organisation. The output helped the team organise the report into clear
+                website pages.
               </Placeholder>
             </td>
             <td>
