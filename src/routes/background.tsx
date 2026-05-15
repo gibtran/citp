@@ -49,7 +49,7 @@ function Page() {
       <h2>What the project aims to achieve</h2>
       <p>
         This project aims to design a culturally appropriate, modular, and maintainable
-        service hub that integrates shelter, power, water, and storage; that can be
+        service hub that integrates shelter, water, and storage; that can be
         transported on existing tracks; and that can be owned and operated by the Lama
         Lama community.
       </p>
