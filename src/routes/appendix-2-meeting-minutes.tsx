@@ -24,7 +24,7 @@ function Page() {
           <strong>Date:</strong> 9 April 2026 · <strong>Duration:</strong> approximately 3 hours
         </p>
         <p>
-          <strong>Agenda:</strong> Discuss the background information required for Assignment 2A and
+          <strong>Agenda:</strong> Discuss the background information of Lama Lama Country and
           develop the initial direction for the design solution.
         </p>
         <p>
@@ -36,12 +36,7 @@ function Page() {
         </p>
         <p>
           <strong>Decisions:</strong> The team agreed to focus on a modular infrastructure solution
-          that could support storage, rest and basic fieldwork activities. This direction was used
-          to prepare the Assignment 2A presentation.
-        </p>
-        <p>
-          <strong>Action items:</strong> Team members continued background research, refined the
-          problem statement and prepared content for the Assignment 2A presentation.
+          that could support storage, rest and basic fieldwork activities.
         </p>
       </section>
 
@@ -65,11 +60,6 @@ function Page() {
           solution. The group also agreed that the design should be presented as flexible and
           expandable, rather than as one large fixed structure.
         </p>
-        <p>
-          <strong>Action items:</strong> Prepare the Assignment 2B presentation, develop the
-          implementation and costing sections, and improve the explanation of how the design meets
-          community needs.
-        </p>
       </section>
 
       <section className="rounded-xl border p-6 my-6">
@@ -92,10 +82,6 @@ function Page() {
           model. The prototype section would focus on design evaluation rather than physical
           testing.
         </p>
-        <p>
-          <strong>Action items:</strong> Update the prototype page, add prototype images and revise
-          wording to avoid claiming that physical testing was completed.
-        </p>
       </section>
 
       <section className="rounded-xl border p-6 my-6">
@@ -110,17 +96,14 @@ function Page() {
         <p>
           <strong>Discussion:</strong> The team reviewed feedback from previous work and identified
           areas that needed improvement for Assignment 3. The main focus was to make the design
-          explanation clearer, improve the costing structure and include broader cost categories
-          such as materials, transport, labour, training, maintenance and contingency.
+          explanation clearer in sustainability criteria, improve the costing structure and include
+          broader cost categories such as materials, transport, labour, training, maintenance and
+          contingency.
         </p>
         <p>
-          <strong>Decisions:</strong> The group agreed to strengthen the website by presenting the
-          Modular Service Hub as a staged design. The costing section was revised to better reflect
-          remote implementation challenges and long-term feasibility.
-        </p>
-        <p>
-          <strong>Action items:</strong> Update the design solution page, revise the cost analysis,
-          complete the appendices, check references and prepare the website for final deployment.
+          <strong>Decisions:</strong> The group agreed to remove solar power of Modular Service Hub
+          for sustainability and maintainability purpose. The costing section was revised to better
+          reflect remote implementation challenges and long-term feasibility.
         </p>
       </section>
     </PageShell>
