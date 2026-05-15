@@ -19,20 +19,20 @@ function Page() {
     <PageShell eyebrow="4 · Problem & Criteria" title="Problem Description and Design Criteria">
       <h2>User needs statement</h2>
       <p>
-        The Lama Lama people and rangers need a transportable and durable service hub that supports
+        The Lama Lama people and Rangers need a transportable and durable service hub that supports
         storage, rest, planning and fieldwork activities at remote outstations, so that they can
-        work more effectively and safely.
+        work more effectively and safely (EWB, 2026; Lama Lama Country, n.d.).
       </p>
 
       <h2>Problem and ideal future situation</h2>
       <p>
         Currently, Lama Lama Country lacks a reliable and accessible infrastructure that meets the
-        necessary conditions to support Rangers. Furthermore, Lama Lama also faces harsh
+        necessary conditions to support Rangers (EWB, 2026). Furthermore, Lama Lama also faces harsh
         environmental conditions, including a tropical wet/dry climate, high UV exposure, and
         cyclonic weather events, highlighting the need for durable and low-maintenance
-        infrastructure. Ideally, we can build modular service hubs in Lama Lama Country, owned and
-        maintained by the community, so that rangers and Traditional Owners can work more safely and
-        effectively with less reliance on external services.
+        infrastructure (Queensland Government, 2019). Ideally, we can build modular service hubs in
+        Lama Lama Country, owned and maintained by the community, so that rangers and Traditional
+        Owners can work more safely and effectively with less reliance on external services.
       </p>
 
       <h2>Design criteria</h2>
@@ -81,13 +81,16 @@ function Page() {
           <tr>
             <td>Cost feasibility</td>
             <td>Per-unit cost suits available grant and program funding.</td>
-            <td>Funding is limited; many sites need support.</td>
-            <td>More units can be deployed across Country.</td>
+            <td>Funding is limited while many sites need support.</td>
+            <td>More units can be built if cost effective</td>
           </tr>
           <tr>
             <td>Environmental impact</td>
             <td>Low site disturbance; recyclable materials; off-grid services.</td>
-            <td>Sites are within sensitive cultural and ecological landscapes.</td>
+            <td>
+              Lama Lama has cultural and ecological value, so construction that would have a major
+              impact is unacceptable
+            </td>
             <td>Protects Country for future generations.</td>
           </tr>
         </tbody>

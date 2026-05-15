@@ -22,9 +22,32 @@ function Page() {
       </p>
       <ol className="space-y-3 pl-5 [&>li]:pl-2">
         <li>
-          Aakurru (Our home) – Welcome to Lama Lama Country. (2026). <em>Lamalama.org.au</em>.{" "}
-          <a href="https://www.lamalama.org.au/country/" target="_blank" rel="noreferrer">
-            https://www.lamalama.org.au/country/
+          Engineers Without Borders Australia. (2026).{" "}
+          <em>Design Area 1 – Infrastructure and Access</em>. EWB Challenge.{" "}
+          <a
+            href="https://ewbchallenge.org/challenge/port-stewart-lama-lama/design-area-1-infrastructure-and-access/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://ewbchallenge.org/challenge/port-stewart-lama-lama/design-area-1-infrastructure-and-access/
+          </a>
+        </li>
+
+        <li>
+          Lama Lama Country. (n.d.). <em>Lama Lama Rangers</em>.{" "}
+          <a href="https://www.lamalama.org.au/lama-lama-rangers/" target="_blank" rel="noreferrer">
+            https://www.lamalama.org.au/lama-lama-rangers/
+          </a>
+        </li>
+
+        <li>
+          Queensland Government. (2019). <em>Climate change in the Cape York region</em>.{" "}
+          <a
+            href="https://www.qld.gov.au/__data/assets/pdf_file/0019/68140/cape-york-climate-change-impact-summary.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://www.qld.gov.au/__data/assets/pdf_file/0019/68140/cape-york-climate-change-impact-summary.pdf
           </a>
         </li>
 
