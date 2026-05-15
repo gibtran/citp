@@ -25,7 +25,7 @@ function Page() {
         The team prototyped the modular layout of the service hub. This included a storage module, a
         work/rest module, a raised base, a roof structure and connection points for future
         expansion. These parts were selected because they represent the most important functions
-        needed for a practical ranger support hub in remote conditions.
+        needed for a practical ranger support hub in remote conditions while ensuring sustainability.
       </p>
 
       <table>
@@ -38,7 +38,7 @@ function Page() {
         <tbody>
           <tr>
             <td>Storage module</td>
-            <td>To store tools, PPE, first aid equipment, radios and maintenance items.</td>
+            <td>To store tools, PPE, first aid equipment, maintenance items.</td>
           </tr>
           <tr>
             <td>Work/rest module</td>
@@ -67,7 +67,7 @@ function Page() {
 
       <h2>How the Prototype Was Constructed</h2>
       <p>
-        The prototype was developed digitally to visualise the overall layout and function of the
+        The prototype was developed digitally using Blender to visualise the overall layout and function of the
         Modular Service Hub. The digital model allowed the team to explore the size, spacing, access
         points and arrangement of the 2.5m x 2.5m modules without building a physical model
       </p>
@@ -133,7 +133,7 @@ function Page() {
           </tr>
           <tr>
             <td>User movement</td>
-            <td>Whether users could move logically between storage, work and rest areas.</td>
+            <td>Whether users could access storage, work and rest areas easily.</td>
           </tr>
           <tr>
             <td>Storage access</td>

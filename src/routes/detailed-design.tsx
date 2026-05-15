@@ -1,13 +1,17 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { PageShell, Figure } from "@/components/report";
-import prototypeImage2 from "../img/prototype3.png";
-import prototypeImage3 from "../img/prototype2.png";
+import { PageShell} from "@/components/report";
+import prototypeImage4 from "../img/prototype4.png";
+import minecraftPrototype from "../img/minecraft_prototype.png"
 
 export const Route = createFileRoute("/detailed-design")({
   head: () => ({
     meta: [
       { title: "Detailed Design — Modular Service Hub" },
-      { name: "description", content: "Detailed design of the Modular Service Hub including components, operation, and community concerns." },
+      {
+        name: "description",
+        content:
+          "Detailed design of the Modular Service Hub including components, operation, and community concerns.",
+      },
     ],
   }),
   component: Page,
@@ -20,19 +24,48 @@ function Page() {
       <p>
         The Modular Service Hub is a 2.5 m × 2.5 m enclosed unit on a raised aluminium floor frame.
         The structure separates a lockable storage zone from an open workspace and rest area. A
-        pitched roof supports solar panels and directs rainfall into a side-mounted poly tank.
+        pitched roof directs rainfall into a side-mounted poly tank.
       </p>
 
-      <Figure
-        caption="Figure 5: Labelled design diagram of the Modular Service Hub."
-        src={prototypeImage2}
-        alt="Digital prototype front view of the Modular Service Hub"
-      />
+      <figure
+        style={{
+          margin: "32px auto",
+          textAlign: "center",
+          maxWidth: "900px",
+        }}
+      >
+        <img
+          src={prototypeImage4}
+          alt="Digital prototype front view of the Modular Service Hub"
+          style={{
+            width: "100%",
+            display: "block",
+            borderRadius: "12px",
+            objectFit: "contain",
+          }}
+        />
+        <figcaption
+          style={{
+            marginTop: "12px",
+            fontStyle: "italic",
+            color: "#555",
+            textAlign: "center",
+            width: "100%",
+          }}
+        >
+          Figure 5: Labelled design diagram of the Modular Service Hub. (Modelled in Blender)
+        </figcaption>
+      </figure>
 
       <h2>Main physical components</h2>
       <ul className="list-disc pl-5">
         <li>
-          <strong>Aluminium frame</strong> — corrosion-resistant primary structure.
+          <strong>Aluminium frame</strong> — corrosion-resistant primary structure. Standardised to simplify stocking.
+        </li>
+        <li>
+          <strong>Timber components</strong> — Local timber is used to complete, strengthen and
+          customize the Hubs (e.g. doors, shade, furniture).
+          Handbooks with timber crafting examples are provided.
         </li>
         <li>
           <strong>Raised floor</strong> — protects against flooding and termites; allows airflow.
@@ -46,27 +79,51 @@ function Page() {
           equipment.
         </li>
         <li>
-          <strong>Solar panel and battery</strong> — roof-mounted PV with LiFePO₄ battery and small
-          inverter.
-        </li>
-        <li>
           <strong>Water tank</strong> — poly tank with first-flush diverter and tap.
         </li>
         <li>
-          <strong>Workspace / rest area</strong> — bench, charging points, shaded seating, and
-          ventilation.
+          <strong>Workspace / rest area</strong> — self-made benches out of timber, shaded seating,
+          and ventilation.
         </li>
       </ul>
 
       <h2>How the design works</h2>
       <p>
-        The hub functions as an integrated off-grid base. Solar panels charge the battery during
-        daylight, supplying lighting, USB charging, and small instruments. The roof captures
-        rainwater into the tank for non-potable use. Rangers access the storage compartment with a
-        keyed lock; the rest area provides shade and a workspace during operations.
+        The hub functions as an integrated off-grid base. The roof captures rainwater into the tank
+        for non-potable use. Rangers access the storage compartment with a keyed lock providing
+        basic tools and equipment; the rest area provides shade and a workspace during operations.
       </p>
 
-      <Figure caption="Figure 6: System block diagram showing power, water, and access flows." />
+      <figure
+        style={{
+          margin: "32px auto",
+          textAlign: "center",
+          maxWidth: "900px",
+        }}
+      >
+        <img
+          src={minecraftPrototype}
+          alt="Digital prototype inside view of the Modular Service Hub in Minecraft"
+          style={{
+            width: "100%",
+            display: "block",
+            borderRadius: "12px",
+            objectFit: "contain",
+          }}
+        />
+        <figcaption
+          style={{
+            marginTop: "12px",
+            fontStyle: "italic",
+            color: "#555",
+            textAlign: "center",
+            width: "100%",
+          }}
+        >
+          Figure 6: System block diagram showing power, water, and access flows. (Build in
+          Minecraft)
+        </figcaption>
+      </figure>
 
       <h2>Who will use it and how</h2>
       <p>
@@ -94,7 +151,7 @@ function Page() {
           </tr>
           <tr>
             <td>Ongoing maintenance burden</td>
-            <td>Standard parts; documented maintenance plan; ranger training.</td>
+            <td>Standard core parts; documented maintenance plan; ranger training.</td>
           </tr>
           <tr>
             <td>Cultural protocols</td>
