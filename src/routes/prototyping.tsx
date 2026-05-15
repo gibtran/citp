@@ -25,7 +25,8 @@ function Page() {
         The team prototyped the modular layout of the service hub. This included a storage module, a
         work/rest module, a raised base, a roof structure and connection points for future
         expansion. These parts were selected because they represent the most important functions
-        needed for a practical ranger support hub in remote conditions while ensuring sustainability.
+        needed for a practical ranger support hub in remote conditions while ensuring
+        sustainability.
       </p>
 
       <table>
@@ -67,15 +68,16 @@ function Page() {
 
       <h2>How the Prototype Was Constructed</h2>
       <p>
-        The prototype was developed digitally using Blender to visualise the overall layout and function of the
-        Modular Service Hub. The digital model allowed the team to explore the size, spacing, access
-        points and arrangement of the 2.5m x 2.5m modules without building a physical model
+        The prototype was developed digitally using Blender to visualise the overall layout and
+        function of the Modular Service Hub. The team created a digital model of one hub unit to
+        explore the size, spacing, access points and arrangement of the 2.5m x 2m modules without
+        building a physical model.
       </p>
 
       <p>
-        This approach was suitable at the concept stage because the main aim was to communicate the
-        design clearly and evaluate whether the modular layout could support storage, rest, work and
-        future expansion. However, the digital prototype does not test real structural strength,
+        This approach was suitable at the concept stage because it allowed the team to communicate
+        the design clearly and review whether the modular layout could support storage, rest, work
+        and future expansion. However, the digital prototype does not test structural strength,
         material performance or weather resistance.
       </p>
 
@@ -114,9 +116,9 @@ function Page() {
       <p>
         Because the prototype was developed digitally, the evaluation focused on reviewing the
         design concept against the project’s design criteria rather than physical testing. The team
-        considered whether the layout was clear, whether users could move between spaces logically,
-        whether storage areas appeared accessible and whether extra modules could be added in the
-        future.
+        reviewed whether the layout was clear, whether users could move logically between spaces,
+        whether storage areas appeared accessible, and whether additional modules could be added in
+        the future.
       </p>
 
       <table>
@@ -133,14 +135,11 @@ function Page() {
           </tr>
           <tr>
             <td>User movement</td>
-            <td>Whether users could access storage, work and rest areas easily.</td>
+            <td>Whether users could access storage, work and rest</td>
           </tr>
           <tr>
             <td>Storage access</td>
-            <td>
-              Whether the storage area appeared accessible for tools, PPE, first aid equipment and
-              radios.
-            </td>
+            <td>Whether the tools, first aid, equipment, etc are easy to access</td>
           </tr>
           <tr>
             <td>Future expansion</td>
@@ -150,9 +149,7 @@ function Page() {
           </tr>
           <tr>
             <td>Remote practicality</td>
-            <td>
-              Whether the design appeared simple enough for remote use, transport and maintenance.
-            </td>
+            <td>Whether the design is simple enough for remote use, transport and maintenance.</td>
           </tr>
         </tbody>
       </table>
@@ -168,10 +165,10 @@ function Page() {
 
       <h2>Summary</h2>
       <p>
-        The prototype confirmed that the Modular Service Hub is a practical design direction. It
-        showed that the 2.5m x 2.5m module can work as a basic building unit and can be expanded
-        over time. The testing helped improve the design by making the layout more open, easier to
-        access and more suitable for staged implementation in remote conditions.
+        The digital prototype indicated that the Modular Service Hub is a practical design for
+        development. It showed how a 2.5m x 2m module could work as a basic building unit and how
+        the hub could be expanded over time through additional modules. However, further community
+        feedback, technical review and real-world testing would be required before implementation.
       </p>
     </PageShell>
   );

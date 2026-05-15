@@ -19,16 +19,20 @@ function Page() {
     <PageShell eyebrow="4 · Problem & Criteria" title="Problem Description and Design Criteria">
       <h2>User needs statement</h2>
       <p>
-        The Lama Lama Rangers and outstation users need a transportable, weather-resistant facility
-        that securely stores equipment, provides shelter for short rest periods and basic work.
+        The Lama Lama people and rangers need a transportable and durable service hub that supports
+        storage, rest, planning and fieldwork activities at remote outstations, so that they can
+        work more effectively and safely.
       </p>
 
       <h2>Problem and ideal future situation</h2>
       <p>
-        Currently, ranger work is constrained by the lack of secure, comfortable bases at priority
-        sites. In the ideal future situation, modular service hubs are deployed across Lama Lama
-        Country, owned and maintained by the community, allowing rangers and Traditional Owners to
-        spend more productive time on Country with less reliance on external services.
+        Currently, Lama Lama Country lacks a reliable and accessible infrastructure that meets the
+        necessary conditions to support Rangers. Furthermore, Lama Lama also faces harsh
+        environmental conditions, including a tropical wet/dry climate, high UV exposure, and
+        cyclonic weather events, highlighting the need for durable and low-maintenance
+        infrastructure. Ideally, we can build modular service hubs in Lama Lama Country, owned and
+        maintained by the community, so that rangers and Traditional Owners can work more safely and
+        effectively with less reliance on external services.
       </p>
 
       <h2>Design criteria</h2>
@@ -44,27 +48,35 @@ function Page() {
         <tbody>
           <tr>
             <td>Cultural appropriateness</td>
-            <td>Design respects Country, cultural protocols, and Traditional Owner guidance.</td>
-            <td>Essential for community acceptance and ongoing use.</td>
+            <td>Design respects Country, culture, and Traditional Owner guidance.</td>
+            <td>
+              Aboriginal Country → Cultural and governance factors require early engagement with
+              Traditional Owners and respect for community decision-making
+            </td>
             <td>Supports cultural continuity and self-determination.</td>
           </tr>
           <tr>
             <td>Durability</td>
             <td>Withstands tropical wet/dry climate, UV, and cyclonic exposure.</td>
-            <td>Remote sites are not easily serviced; failures are costly.</td>
-            <td>Reduces maintenance burden on rangers.</td>
+            <td>
+              Remote sites are not easily having availablility of services; failures are costly.
+            </td>
+            <td>Reduces maintenance difficulties for rangers</td>
           </tr>
           <tr>
             <td>Ease of transport &amp; installation</td>
-            <td>Fits on existing tracks; assembled by a small crew with hand tools.</td>
-            <td>Site access is restricted seasonally; heavy machinery is rare.</td>
-            <td>Enables more sites to be served with the same resources.</td>
+            <td>Able to transport on tracks, assembled by a small crew with hand tools.</td>
+            <td>Remote conditions → require low-maintenance and practical logistics</td>
+            <td>Easy to transport to remotes area, reduce time delay </td>
           </tr>
           <tr>
             <td>Maintainability</td>
-            <td>Uses standard parts and locally serviceable systems.</td>
-            <td>Specialised parts are slow and expensive to source.</td>
-            <td>Supports long service life and local skills.</td>
+            <td>Uses standard & popular materials, easy to purchase, fix and not complicated</td>
+            <td>Easy to maintaince, replaceable when problems exist</td>
+            <td>
+              Supports long service life, independ from external resources, the community can
+              perform basic checks and repairs themselves.{" "}
+            </td>
           </tr>
           <tr>
             <td>Cost feasibility</td>
