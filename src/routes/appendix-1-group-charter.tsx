@@ -44,7 +44,7 @@ function Page() {
             </td>
             <td>Team member</td>
             <td>
-              <Placeholder>PLACEHOLDER</Placeholder>
+              <Placeholder>Design Options & Recommendations</Placeholder>
             </td>
           </tr>
           <tr>
@@ -62,7 +62,7 @@ function Page() {
             </td>
             <td>Team member</td>
             <td>
-              <Placeholder>PLACEHOLDER</Placeholder>
+              <Placeholder>Problem & Criteria; Prototyping</Placeholder>
             </td>
           </tr>
           <tr>
@@ -71,7 +71,7 @@ function Page() {
             </td>
             <td>Team member</td>
             <td>
-              <Placeholder>PLACEHOLDER</Placeholder>
+              <Placeholder>Implementation Plan & Cost Analysis</Placeholder>
             </td>
           </tr>
           <tr>
@@ -80,7 +80,7 @@ function Page() {
             </td>
             <td>Team member</td>
             <td>
-              <Placeholder>PLACEHOLDER</Placeholder>
+              <Placeholder>Design Options & Design Selection</Placeholder>
             </td>
           </tr>
         </tbody>
