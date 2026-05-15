@@ -61,7 +61,7 @@ function Index() {
 
       <h2>Key considerations</h2>
       <div className="not-prose grid gap-4 sm:grid-cols-2">
-        <Card title="Cultural appropriateness">Designed in consultation with Traditional Owners; respects Country and existing cultural protocols.</Card>
+        <Card title="Cultural appropriateness">Designed  consultation with Traditional Owners; respects Country and existing cultural protocols.</Card>
         <Card title="Community ownership">We aim to support the Lama Lama people with the implementation of the modular service hubs for a minimum three years,
 
           and
