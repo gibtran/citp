@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageShell} from "@/components/report";
 import prototypeImage4 from "../img/prototype4.png";
-import minecraftPrototype from "../img/minecraft_prototype.png"
+import blockDiagram from "../img/block_diagram.png"
 
 export const Route = createFileRoute("/detailed-design")({
   head: () => ({
@@ -53,7 +53,7 @@ function Page() {
             width: "100%",
           }}
         >
-          Figure 5: Labelled design diagram of the Modular Service Hub. (Modelled in Blender)
+          Figure 5: Unit of Modular Service Hubs showing modularity and construction design. (Modelled in Blender)
         </figcaption>
       </figure>
 
@@ -102,7 +102,7 @@ function Page() {
         }}
       >
         <img
-          src={minecraftPrototype}
+          src={blockDiagram}
           alt="Digital prototype inside view of the Modular Service Hub in Minecraft"
           style={{
             width: "100%",
@@ -120,7 +120,7 @@ function Page() {
             width: "100%",
           }}
         >
-          Figure 6: System block diagram showing power, water, and access flows. (Build in
+          Figure 6: System block diagram showing water, equipment and access flows.
           Minecraft)
         </figcaption>
       </figure>
