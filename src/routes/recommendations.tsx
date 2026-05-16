@@ -14,15 +14,27 @@ export const Route = createFileRoute("/recommendations")({
 function Page() {
   return (
     <PageShell eyebrow="12 · Recommendations" title="Recommendations">
-      <p>The following next steps are recommended to progress the project responsibly:</p>
-      <ol className="list-decimal pl-5">
-        <li>Conduct further consultation with Traditional Owners and YAC to confirm scope, sites, and protocols.</li>
-        <li>Field-test a single prototype unit through both wet and dry season conditions before scaled deployment.</li>
-        <li>Obtain firm supplier quotes for the bill of materials and confirm freight logistics.</li>
-        <li>Develop and deliver a maintenance training plan for the Lama Lama Rangers.</li>
-        <li>Establish a long-term monitoring and evaluation framework with measurable indicators.</li>
-        <li>Investigate funding pathways through Indigenous land management and infrastructure programs.</li>
-      </ol>
+      <h2>Client Action</h2>
+      <p>
+        For successful implementation, Traditional Owners and YAC must lead 
+        formal site selection and cultural approval processes, determining which outstations 
+        are prioritised based on patrol frequency, seasonal access, and cultural significance. 
+        The client will also need to pursue specific funding pathways such as the Indigenous 
+        Protected Areas program or Queensland Government regional infrastructure grants and finalise 
+        supplier quotes for the currently costs in the bill of materials.
+        A transport plan for delivering materials to remote sites during the dry season should 
+        be arranged with a local Cape York logistics provider.
+      </p>
+      <h2>Further research</h2>
+      <p>
+        Material performance data for the aluminium frame, composite panels, and roof insulation under Lama 
+        Lama's tropical, extremely hot and cyclonic conditions should be gathered before full-scale fabrication. 
+        Rainwater quality testing at each proposed site is needed to confirm whether the first-flush diverter 
+        alone is sufficient for safe non-potable use. Labour estimates for assembly remain TBC and should be 
+        validated through a supervised trial with rangers. Community feedback from rangers on the internal 
+        layout and timber customisation approach should also be collected before committing to full deployment.
+      </p>
+      
     </PageShell>
   );
 }
