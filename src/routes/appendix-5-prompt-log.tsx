@@ -217,6 +217,106 @@ function Page() {
               <Placeholder>Human oversight</Placeholder>
             </td>
           </tr>
+
+          <tr>
+          <td id={"figure_2.2_prompt"}>
+            <a href="/design-options#figure_2.2_prompt">Figure 2.2: Modular Service Hub assembly concept image</a>
+          </td>
+          <td>
+            <Placeholder>16/06/2026</Placeholder>
+          </td>
+          <td>
+            <Placeholder>ChatGPT</Placeholder>
+          </td>
+          <td>
+            <Placeholder>
+              Create a clean 3D concept image of a compact modular service hub for remote outstations.
+              The design should show a raised base, enclosed rest/work area, lockable entry door, modular
+              wall panels, weather-protective roof, roof runoff connection, and rainwater tank. Can you
+              make this image look likes it is assembled and disassembled by ranger.
+            </Placeholder>
+          </td>
+          <td>
+            <Placeholder>
+              Generated a concept image for Figure 2.1 to illustrate how the Modular Service Hub panels
+              are assembled and disassembled by rangers on-site, supporting the explanation of how the
+              hub is deployed and relocated across remote locations.
+            </Placeholder>
+          </td>
+          <td>
+            <Placeholder>
+              Reviewed by the team to confirm the image accurately reflects the assembly process described
+              in the How It Works section. Panels were checked to appear modular and manually handled
+              rather than machine-installed.
+            </Placeholder>
+          </td>
+          </tr>
+          <tr>
+          <td id={"figure_3.2_prompt"}>
+            <a href="/design-options#figure_3.2_prompt">Figure 3.2: Mobile Trailer Hub concept image</a>
+          </td>
+          <td>
+            <Placeholder>16/06/2026</Placeholder>
+          </td>
+          <td>
+            <Placeholder>ChatGPT</Placeholder>
+          </td>
+          <td>
+            <Placeholder>
+              Create a clean 3D concept image of a mobile trailer hub for remote ranger activities.
+              The image should show a trailer-mounted shelter with fold-out shade, lockable storage,
+              water tank, stabilising legs, tow bar, and compact field base layout. Can you make it
+              look like it moving site by sites in lama lama country.
+            </Placeholder>
+          </td>
+          <td>
+            <Placeholder>
+              Generated a concept image for Figure 2.2 to visually demonstrate how the Mobile Trailer
+              Hub is towed between multiple sites across Lama Lama Country, supporting the explanation
+              of its flexibility and mobility compared to a fixed installation.
+            </Placeholder>
+          </td>
+          <td>
+            <Placeholder>
+              Reviewed by the team to ensure the image clearly conveyed movement between sites rather
+              than permanent installation. Confirmed the trailer elements such as the tow bar, wheels,
+              and stabilising legs were visible and consistent with the design description.
+            </Placeholder>
+          </td>
+        </tr>
+        <tr>
+        <td id={"figure_4.2_prompt"}>
+          <a href="/design-options#figure_4.2_prompt">Figure 4.2: Upgraded Existing Shelter with rangers concept image</a>
+        </td>
+        <td>
+          <Placeholder>16/06/2026</Placeholder>
+        </td>
+        <td>
+          <Placeholder>ChatGPT</Placeholder>
+        </td>
+        <td>
+          <Placeholder>
+            Create a clean 3D concept image of an upgraded existing shelter or storage system for a
+            remote outstation. The image should show weatherproof cladding, roof drainage, lockable
+            storage, ventilation, shelving, raised supports, and a rainwater tank. And can you draw
+            the rangers, the one interacting with this upgraded shelter.
+          </Placeholder>
+        </td>
+        <td>
+          <Placeholder>
+            Generated a concept image for Figure 4.2 to illustrate how rangers would interact with
+            the upgraded shelter in a real field context, helping communicate the human scale and
+            practical use of the design to the reader.
+          </Placeholder>
+        </td>
+        <td>
+          <Placeholder>
+            Reviewed by the team to confirm the rangers depicted were shown using the shelter
+            appropriately, such as accessing lockable storage or working under the sheltered area.
+            Checked that the upgraded features remained clearly visible and not obscured by the figures.
+          </Placeholder>
+        </td>
+      </tr>
         </tbody>
       </table>
     </PageShell>
