@@ -44,9 +44,9 @@ function Page() {
           <tr>
             <td><strong>Weighted total</strong></td>
             <td>—</td>
-            <td><strong>113</strong></td>
-            <td><strong>91</strong></td>
-            <td><strong>87</strong></td>
+            <td><strong>114</strong></td>
+            <td><strong>97</strong></td>
+            <td><strong>89</strong></td>
           </tr>
         </tbody>
       </table>
@@ -64,9 +64,10 @@ function Page() {
 
       <h2>Final selected design</h2>
       <p className="rounded-md border-l-4 border-accent bg-accent/5 p-4">
-        <strong>Selected design:</strong> the Modular Service Hub — a transportable
-        2.5 m × 2.5 m unit with integrated lockable storage, workspace, off-grid solar
-        power, and rainwater capture, designed for deployment across Lama Lama Country.
+        <strong>Selected design:</strong> the Modular Service Hub — This is a transportable 
+        2.5 m × 2.5 m unit that combines lockable storage, a sheltered rest/work area, a raised base, weather-resistant materials, 
+        and rainwater support. It was selected because it offers the most practical long-term solution for supporting Lama Lama Rangers 
+        and Traditional Owners at remote outstations while still allowing the design to be installed gradually, maintained locally, and adapted to different site needs.
       </p>
     </PageShell>
   );
