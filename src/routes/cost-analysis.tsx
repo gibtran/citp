@@ -17,18 +17,10 @@ function Page() {
       <h2>Bill of materials</h2>
       <table>
         <thead>
-          <tr><th>Iem</th><th>Quantity</th><th>Est. unit cost (AUD)</th><th>Total (AUD)</th><th>Source / assumption</th></tr>
+          <tr><th>Item</th><th>Quantity</th><th>Est. unit cost (AUD)</th><th>Total (AUD)</th><th>Source / assumption</th></tr>
         </thead>
         <tbody>
-          <tr><td>Aluminium Panel</td><td><Placeholder>$600</Placeholder></td><td><Placeholder>$2,400</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td>Local supplier quote</td></tr>
-          <tr><td>Composite floor panel</td><td><Placeholder>TBC</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td>Manufacturer estimate</td></tr>
-          <tr><td>Roof panels &amp; insulation</td><td><Placeholder>TBC</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td>Industry pricing</td></tr>
-          <tr><td>Solar PV (≈400 W)</td><td>2</td><td><Placeholder>$ TBC</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td>Off-grid solar supplier</td></tr>
-          <tr><td>Battery (LiFePO₄)</td><td>1</td><td><Placeholder>$ TBC</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td>Off-grid solar supplier</td></tr>
-          <tr><td>Inverter / charge controller</td><td>1</td><td><Placeholder>$ TBC</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td>Off-grid solar supplier</td></tr>
-          <tr><td>Water tank (poly)</td><td>1</td><td><Placeholder>$ TBC</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td>Local supplier</td></tr>
-          <tr><td>Locks, fasteners, fittings</td><td><Placeholder>TBC</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td><Placeholder>$ TBC</Placeholder></td><td>Hardware supplier</td></tr>
-          <tr><td colSpan={3}><strong>Materials subtotal</strong></td><td><Placeholder>$ TBC</Placeholder></td><td>—</td></tr>
+          <tr><td>Aluminium Panel</td><td><Placeholder>6</Placeholder></td><td><Placeholder>$400</Placeholder></td><td><Placeholder>$2,400</Placeholder></td><td>https://steelmart.com.au/products/aluminium-sheet?variant=45236291895452</td></tr><tr><td>Labour</td><td><Placeholder>6</Placeholder></td><td><Placeholder>$50</Placeholder></td><td><Placeholder>$300</Placeholder></td><td>https://steelmart.com.au/products/aluminium-sheet?variant=45236291895452</td></tr><tr><td>Transportation</td><td><Placeholder>1</Placeholder></td><td><Placeholder>$1,500</Placeholder></td><td><Placeholder>$1,500</Placeholder></td><td>https://omegacargo.com.au/container-shipping-cost-and-rates-in-australia/</td></tr><tr><td>Training Per Person</td><td><Placeholder>20</Placeholder></td><td><Placeholder>$375</Placeholder></td><td><Placeholder>$7,500</Placeholder></td><td>https://www.affordabletraining.com.au/courses-brisbane/</td></tr>
         </tbody>
       </table>
       <TableCaption>Table 9: Bill of materials.</TableCaption>
