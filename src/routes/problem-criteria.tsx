@@ -21,7 +21,8 @@ function Page() {
       <p>
         The Lama Lama people and Rangers need a transportable and durable service hub that supports
         storage, rest, planning and fieldwork activities at remote outstations, so that they can
-        work more effectively and safely (EWB, 2026; Lama Lama Country, n.d.).
+        work more effectively and safely (Engineers Without Borders Australia, 2026; Yintjingga
+        Aboriginal Corporation, n.d.).
       </p>
 
       <h2>Problem and ideal future situation</h2>

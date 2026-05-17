@@ -70,7 +70,7 @@ function Page() {
       <p>
         The prototype was developed digitally using Blender to visualise the overall layout and
         function of the Modular Service Hub. The team created a digital model of one hub unit to
-        explore the size, spacing, access points and arrangement of the 2.5m x 2m modules without
+        explore the size, spacing, access points and arrangement of the 2.5m x 2.5m modules without
         building a physical model.
       </p>
 
@@ -166,7 +166,7 @@ function Page() {
       <h2>Summary</h2>
       <p>
         The digital prototype indicated that the Modular Service Hub is a practical design for
-        development. It showed how a 2.5m x 2m module could work as a basic building unit and how
+        development. It showed how a 2.5m x 2.5m module could work as a basic building unit and how
         the hub could be expanded over time through additional modules. However, further community
         feedback, technical review and real-world testing would be required before implementation.
       </p>

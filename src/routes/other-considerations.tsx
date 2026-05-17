@@ -1,12 +1,16 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { PageShell} from "@/components/report";
+import { PageShell } from "@/components/report";
 import journeyMap from "../img/journey_map.png";
 
 export const Route = createFileRoute("/other-considerations")({
   head: () => ({
     meta: [
       { title: "Other Considerations" },
-      { name: "description", content: "Cultural, environmental, and long-term considerations for the Modular Service Hub." },
+      {
+        name: "description",
+        content:
+          "Cultural, environmental, and long-term considerations for the Modular Service Hub.",
+      },
     ],
   }),
   component: Page,
@@ -18,7 +22,8 @@ function Page() {
       <h2>Cultural approval and governance</h2>
       <p>
         Deployment of any unit is subject to approval by Traditional Owners and YAC. Site selection,
-        signage, and use protocols are determined by the community.
+        signage, and use protocols are determined by the community (EWB Challenge, 2026; Yintjingga
+        Aboriginal Corporation, n.d.).
       </p>
 
       <h2>Environmental impact</h2>
@@ -32,7 +37,7 @@ function Page() {
       <p>
         Wet-season conditions limit road access for several months of the year. Maintenance and
         re-supply schedules are aligned with the dry season, and the hub is sized to be
-        self-sufficient through the wet season.
+        self-sufficient through the wet season (EWB Challenge, 2026).
       </p>
 
       <h2>Long-term maintenance and sustainability</h2>
