@@ -49,31 +49,40 @@ function Page() {
         <tbody>
           <tr>
             <td>Cultural appropriateness</td>
-            <td>Design respects Country, culture, and Traditional Owner guidance.</td>
+            <td>Design respects Country, culture, and Traditional Owner guidance</td>
             <td>
               Aboriginal Country → Cultural and governance factors require early engagement with
               Traditional Owners and respect for community decision-making
             </td>
-            <td>Supports cultural continuity and self-determination.</td>
+            <td>Supports cultural continuity and self-determination</td>
           </tr>
           <tr>
             <td>Durability</td>
-            <td>Withstands tropical wet/dry climate, UV, and cyclonic exposure.</td>
+            <td>The design can withstands tropical wet/dry climate, UV, and cyclonic exposure</td>
             <td>
-              Remote sites are not easily having availablility of services; failures are costly.
+              Remote sites are not easily having availablility of services; failures are costly
             </td>
             <td>Reduces maintenance difficulties for rangers</td>
           </tr>
           <tr>
             <td>Ease of transport &amp; installation</td>
-            <td>Able to transport on tracks, assembled by a small crew with hand tools.</td>
+            <td>
+              The design can be transported to remote areas and assembled by a small crew using
+              simple tools{" "}
+            </td>
             <td>Remote conditions → require low-maintenance and practical logistics</td>
-            <td>Easy to transport to remotes area, reduce time delay </td>
+            <td>
+              Reduces transport difficulty, installation delays, and reliance on specialist
+              labour{" "}
+            </td>
           </tr>
           <tr>
             <td>Maintainability</td>
-            <td>Uses standard & popular materials, easy to purchase, fix and not complicated</td>
-            <td>Easy to maintaince, replaceable when problems exist</td>
+            <td>
+              The design uses standard and widely available materials that are easy to purchase,
+              repair, and replace{" "}
+            </td>
+            <td>Standardised parts make maintenance easier when problems occur </td>
             <td>
               Supports long service life, independ from external resources, the community can
               perform basic checks and repairs themselves.{" "}
@@ -81,18 +90,18 @@ function Page() {
           </tr>
           <tr>
             <td>Cost feasibility</td>
-            <td>Per-unit cost suits available grant and program funding.</td>
-            <td>Funding is limited while many sites need support.</td>
-            <td>More units can be built if cost effective</td>
+            <td>Per-unit cost suits available grant and program funding</td>
+            <td>Funding is limited while many sites need support</td>
+            <td>More units can be built if the design is cost-effective </td>
           </tr>
           <tr>
             <td>Environmental impact</td>
-            <td>Low site disturbance; recyclable materials; off-grid services.</td>
+            <td>Low site disturbance; recyclable materials; off-grid services</td>
             <td>
               Lama Lama has cultural and ecological value, so construction that would have a major
               impact is unacceptable
             </td>
-            <td>Protects Country for future generations.</td>
+            <td>Helps protect Country for future generations </td>
           </tr>
         </tbody>
       </table>
