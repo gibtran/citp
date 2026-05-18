@@ -20,7 +20,7 @@ function Page() {
       <h2>User needs statement</h2>
       <p>
         Lama Lama rangers are not able to access certain areas of land because of the unforgiving
-        landscape and intense weather cycles (Engineers Without Borders Australia, 2026; Queensland
+        landscape and intense weather cycles (Engineers Without Borders Australia, 2026a; Queensland
         Government, 2019). This causes issues for monitoring land and wildlife for remote places
         within Lama Lama Country (Yintjingga Aboriginal Corporation, n.d.-b). This results in
         rangers having the travel long distances while carrying heavy equipment without any places
@@ -30,7 +30,7 @@ function Page() {
       <h2>Problem and ideal future situation</h2>
       <p>
         Currently, Lama Lama Country lacks a reliable and accessible infrastructure that meets the
-        necessary conditions to support Rangers (Engineers Without Borders Australia, 2026).
+        necessary conditions to support Rangers (Engineers Without Borders Australia, 2026a).
         Furthermore, Lama Lama also faces harsh environmental conditions, including a tropical
         wet/dry climate, high UV exposure, and cyclonic weather events, highlighting the need for
         durable and low-maintenance infrastructure (Queensland Government, 2019). Ideally, we can

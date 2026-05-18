@@ -23,7 +23,7 @@ function Page() {
         <Card title="Context of Lama Lama Country">
           Lama Lama Country lies on eastern Cape York Peninsula in North Queensland and is
           surrounded by rough terrain and isolated landscapes, which is paired with intense wet and
-          dry cycles (Engineers Without Borders Australia, 2026; Yintjingga Aboriginal Corporation,
+          dry cycles (Engineers Without Borders Australia, 2026a; Yintjingga Aboriginal Corporation,
           n.d.-a). During dry seasons, temperatures stay at 40 degrees with high humidity, while wet
           seasons cause constant flooding, rendering the main road inaccessible for six months
           (Queensland Government, 2019)
@@ -33,7 +33,7 @@ function Page() {
       <Card title="Needs Statement">
         Lama Lama rangers currently lack outstations in greater remote areas, which restricts their
         ability to asses and manage key sites within their region (Engineers Without Borders
-        Australia, 2026; Yintjingga Aboriginal Corporation, n.d.-b). This leaves rangers having to
+        Australia, 2026a; Yintjingga Aboriginal Corporation, n.d.-b). This leaves rangers having to
         travel long distances to monitor certain areas of land, which can leads to unproductive work
         and safety hazards. Providing outstations in remote areas, allows for shelter where rangers
         can stay and store certain materials without needs to drive back to their main location.

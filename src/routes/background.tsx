@@ -20,7 +20,7 @@ function Page() {
     <PageShell eyebrow="3 · Background" title="Background">
       <Card title="Context of the problem">
         Lama Lama rangers are not able to access certain areas of land because of the unforgiving
-        landscape and intense weather cycles (Engineers Without Borders Australia, 2026; Queensland
+        landscape and intense weather cycles (Engineers Without Borders Australia, 2026a; Queensland
         Government, 2019). This causes issues for monitoring land and wildlife for remote places
         within Lama Lama Country (Yintjingga Aboriginal Corporation, n.d.-b). This results in
         rangers having the travel long distances while carrying heavy equipment without any places
@@ -29,9 +29,9 @@ function Page() {
       <h2></h2>
       <Card title="What is currently being done">
         Currently, Lama Lama Country has outstations in areas close ot their main location, however
-        these hubs are outdated and defective (Engineers Without Borders Australia, 2026; Yintjingga
-        Aboriginal Corporation, n.d.-a). The facilities within these outstations cannot provide the
-        necessities for rangers, such as running water and secure storage.
+        these hubs are outdated and defective (Engineers Without Borders Australia, 2026a;
+        Yintjingga Aboriginal Corporation, n.d.-a). The facilities within these outstations cannot
+        provide the necessities for rangers, such as running water and secure storage.
       </Card>
       <h2></h2>
       <Card title="Why current solutions are not enough">
@@ -65,7 +65,8 @@ function Page() {
             textAlign: "center",
           }}
         >
-          Figure 2: Current facilities of outstations in Lama Lama Country
+          Figure 2: Current facilities of outstations in Lama Lama Country. Source: Engineers
+          Without Borders Australia (2026b).
         </figcaption>
       </figure>
       <h2></h2>

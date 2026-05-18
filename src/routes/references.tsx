@@ -19,7 +19,7 @@ function Page() {
     <PageShell eyebrow="13 · References" title="References">
       <ol className="space-y-3 pl-5 [&>li]:pl-2">
         <li>
-          Engineers Without Borders Australia. (2026).{" "}
+          Engineers Without Borders Australia. (2026a).{" "}
           <em>Design Area 1 – Infrastructure and Access</em>. EWB Challenge.{" "}
           <a
             href="https://ewbchallenge.org/challenge/port-stewart-lama-lama/design-area-1-infrastructure-and-access/"
@@ -27,6 +27,45 @@ function Page() {
             rel="noreferrer"
           >
             https://ewbchallenge.org/challenge/port-stewart-lama-lama/design-area-1-infrastructure-and-access/
+          </a>
+        </li>
+
+        <li>
+          Engineers Without Borders Australia. (2026b).{" "}
+          <em>
+            Lama Lama Country: A look at the sacred places, Sea Country, ranger bases, existing
+            amenities and infrastructure
+          </em>
+          . EWB Challenge.{" "}
+          <a
+            href="https://ewbchallenge.org/challenge/port-stewart-lama-lama/lama-lama-country-a-look-at-the-sacred-places/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://ewbchallenge.org/challenge/port-stewart-lama-lama/lama-lama-country-a-look-at-the-sacred-places/
+          </a>
+        </li>
+
+        <li>
+          Northern Australia Infrastructure Facility. (n.d.).{" "}
+          <em>NAIF Act and Investment Mandate</em>.{" "}
+          <a
+            href="https://www.naif.gov.au/our-organisation/governance/naif-act-and-investment-mandate/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://www.naif.gov.au/our-organisation/governance/naif-act-and-investment-mandate/
+          </a>
+        </li>
+
+        <li>
+          Omega Cargo. (n.d.). <em>Container shipping cost and rates in Australia</em>.{" "}
+          <a
+            href="https://omegacargo.com.au/container-shipping-cost-and-rates-in-australia/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://omegacargo.com.au/container-shipping-cost-and-rates-in-australia/
           </a>
         </li>
 
@@ -42,16 +81,39 @@ function Page() {
         </li>
 
         <li>
-          Yintjingga Aboriginal Corporation. (n.d.-a). <em>Welcome to Lama Lama Country</em>.{" "}
-          <a href="https://www.lamalama.org.au/" target="_blank" rel="noreferrer">
-            https://www.lamalama.org.au/
+          Steelmart. (n.d.). <em>Aluminium sheet</em>.{" "}
+          <a
+            href="https://steelmart.com.au/products/aluminium-sheet?variant=45236291895452"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://steelmart.com.au/products/aluminium-sheet?variant=45236291895452
           </a>
         </li>
 
         <li>
-          Yintjingga Aboriginal Corporation. (n.d.-b). <em>Lama Lama Rangers</em>.{" "}
+          Department of Infrastructure, Transport, Regional Development, Communications, Sport and
+          the Arts. (2026). <em>Portfolio Budget Statements 2026–27</em>.{" "}
+          <a
+            href="https://www.infrastructure.gov.au/sites/default/files/documents/2026-27-pbs-00-complete-document-pdf_0.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://www.infrastructure.gov.au/sites/default/files/documents/2026-27-pbs-00-complete-document-pdf_0.pdf
+          </a>
+        </li>
+
+        <li>
+          Yintjingga Aboriginal Corporation. (n.d.-a). <em>Lama Lama Rangers</em>.{" "}
           <a href="https://www.lamalama.org.au/lama-lama-rangers/" target="_blank" rel="noreferrer">
             https://www.lamalama.org.au/lama-lama-rangers/
+          </a>
+        </li>
+
+        <li>
+          Yintjingga Aboriginal Corporation. (n.d.-b). <em>Welcome to Lama Lama Country</em>.{" "}
+          <a href="https://www.lamalama.org.au/" target="_blank" rel="noreferrer">
+            https://www.lamalama.org.au/
           </a>
         </li>
 
