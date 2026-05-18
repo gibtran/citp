@@ -6,9 +6,17 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Executive Summary — Modular Service Hubs for Lama Lama Country" },
-      { name: "description", content: "Executive summary of a modular service hub system designed to support remote outstations and Lama Lama Rangers." },
+      {
+        name: "description",
+        content:
+          "Executive summary of a modular service hub system designed to support remote outstations and Lama Lama Rangers.",
+      },
       { property: "og:title", content: "Modular Service Hubs for Lama Lama Country" },
-      { property: "og:description", content: "EWB Challenge engineering design report — Design Area 1: Infrastructure and Access." },
+      {
+        property: "og:description",
+        content:
+          "EWB Challenge engineering design report — Design Area 1: Infrastructure and Access.",
+      },
     ],
   }),
   component: Index,
@@ -25,7 +33,8 @@ function Index() {
       <p className="italic text-muted-foreground">
         <span className="text-foreground text-base font-bold"> 1.4 Modular Service Hubs:</span>{" "}
         Create small infrastructure modules that add capacity at outstations, such as shade,
-        storage, lighting and basic tools, without heavy construction.
+        storage, lighting and basic tools, without heavy construction (Engineers Without Borders
+        Australia, 2026).
       </p>
 
       <h2>Key Aspects</h2>
@@ -73,16 +82,14 @@ function Index() {
         </Card>
       </div>
 
-  <figure id="figure_1" className="my-8 text-center mx-auto max-w-3xl">
+  <figure className="my-8 text-center mx-auto max-w-3xl">
   <img
     src={GeneralConcept}
     alt="Concept render of the proposed Modular Service Hub on Lama Lama Country."
     className="w-full rounded-xl object-contain"
   />
-  <figcaption className="mt-3 italic text-muted-foreground text-center" >
+  <figcaption className="mt-3 italic text-muted-foreground text-center">
     Figure 1: Concept render of the proposed Modular Service Hub on Lama Lama Country.
-   <a href="/appendix-5-prompt-log#figure_1_extendable_modular_service_hub"> Source</a>
-
   </figcaption>
   </figure>
       <h2>Proposal summary</h2>
