@@ -19,9 +19,12 @@ function Page() {
     <PageShell eyebrow="4 · Problem & Criteria" title="Problem Description and Design Criteria">
       <h2>User needs statement</h2>
       <p>
-        The Lama Lama people and Rangers need a transportable and durable service hub that supports
-        storage, rest, planning and fieldwork activities at remote outstations, so that they can
-        work more effectively and safely (Engineers Without Borders Australia, 2026).
+        Lama Lama rangers are not able to access certain areas of land because of the unforgiving
+        landscape and intense weather cycles (Engineers Without Borders Australia, 2026; Queensland
+        Government, 2019). This causes issues for monitoring land and wildlife for remote places
+        within Lama Lama Country (Yintjingga Aboriginal Corporation, n.d.-b). This results in
+        rangers having the travel long distances while carrying heavy equipment without any places
+        to rest.
       </p>
 
       <h2>Problem and ideal future situation</h2>
