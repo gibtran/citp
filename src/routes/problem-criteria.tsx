@@ -108,7 +108,6 @@ function Page() {
           </tr>
         </tbody>
       </table>
-      <TableCaption>Table 4: Design criteria.</TableCaption>
     </PageShell>
   );
 }
