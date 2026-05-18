@@ -16,23 +16,24 @@ function Page() {
     <PageShell eyebrow="12 · Recommendations" title="Recommendations">
       <h2>Client Action</h2>
       <p>
-        For successful implementation, Traditional Owners and YAC must lead 
-        formal site selection and cultural approval processes, determining which outstations 
-        are prioritised based on patrol frequency, seasonal access, and cultural significance. 
-        The client will also need to pursue specific funding pathways such as the Indigenous 
-        Protected Areas program or Queensland Government regional infrastructure grants and finalise 
-        supplier quotes for the currently costs in the bill of materials.
-        A transport plan for delivering materials to remote sites during the dry season should 
-        be arranged with a local Cape York logistics provider.
+        For the project to be successful, Traditional Owners and YAC should lead the official process of 
+        choosing sites and giving cultural approval. They should decide which outstations should be 
+        prioritised based on how often rangers visit, whether the sites can be reached during different 
+        seasons, and their cultural importance. The client will also need to apply for funding through 
+        programs such as the Indigenous Protected Areas Program or regional infrastructure grants from 
+        the Queensland Government, and confirm supplier prices for the current costs listed in the bill 
+        of materials. A transport plan for delivering materials to remote sites during the dry season 
+        should also be organised with a local transport or logistics company in Cape York. 
       </p>
       <h2>Further research</h2>
       <p>
-        Material performance data for the aluminium frame, composite panels, and roof insulation under Lama 
-        Lama's tropical, extremely hot and cyclonic conditions should be gathered before full-scale fabrication. 
-        Rainwater quality testing at each proposed site is needed to confirm whether the first-flush diverter 
-        alone is sufficient for safe non-potable use. Labour estimates for assembly remain TBC and should be 
-        validated through a supervised trial with rangers. Community feedback from rangers on the internal 
-        layout and timber customisation approach should also be collected before committing to full deployment.
+        Before building the full system, information should be collected to understand how the aluminium frame, 
+        composite panels, and roof insulation will perform in Lama Lama’s tropical climate, very hot 
+        temperatures, and cyclone conditions. Rainwater quality should also be tested at each planned site 
+        to check if the first-flush diverter is enough to make the water safe for non-drinking purposes. The 
+        amount of labour and time needed to assemble the system is still to be confirmed and should be tested 
+        through a supervised trial with rangers. Feedback from rangers about the inside layout and the timber 
+        customisation options should also be collected before deciding to fully install the system. 
       </p>
       
     </PageShell>
