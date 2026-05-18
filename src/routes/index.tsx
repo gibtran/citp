@@ -27,8 +27,6 @@ function Index() {
         storage, lighting and basic tools, without heavy construction.
       </p>
 
-      <Figure caption="Figure 1: Concept render of the proposed Modular Service Hub on Lama Lama Country." />
-
       <h2>Key Aspects</h2>
       <table>
         <tbody>
@@ -42,7 +40,7 @@ function Index() {
           </tr>
           <tr>
             <th>Keywords</th>
-            <td></td>
+            <td>Modules, Ranger, Outstations, community, sustainable</td>
           </tr>
           <tr>
             <th>Community partners</th>
@@ -51,6 +49,33 @@ function Index() {
         </tbody>
       </table>
       <TableCaption>Table 1: Project snapshot.</TableCaption>
+
+      <h2>Overview of design</h2>
+      <div className="not-prose grid gap-4 sm:grid-cols-2">
+        <Card title="Aim">
+          These modular service hubs are used as outstations for rangers to complete their work in
+          more remote areas
+        </Card>
+        <Card title="Who will use?">
+          Rangers will be the main population using these modular service hubs, however other people
+          within the community will be welcomed to use these units.
+        </Card>
+      </div>
+      <p></p>
+      <div className="not-prose">
+        <Card title="General Information">
+          The modular service hubs are all constructed from 2.5m x 2.5m panels, that can easily be
+          assembled by all levels of construction skills. These panels are produced using a
+          lightweight aluminum frame to reduce corrosion and increase durability. This is paired
+          with some elements of locally-sourced timber to increase sustainability and cultural
+          significance. Lastly, we included a small water tank on the side of each unit which allows
+          for basic hygiene for rangers.
+        </Card>
+      </div>
+
+      <p></p>
+
+      <Figure caption="Figure 1: Concept render of the proposed Modular Service Hub on Lama Lama Country." />
 
       <h2>Proposal summary</h2>
       <p>
@@ -61,36 +86,29 @@ function Index() {
         to ensure for the best outcome.
       </p>
 
-      <h2>Overview of design</h2>
-      <p>
-        The modular service hubs are all constructed from 2.5m x 2.5m panels, that can easily be
-        assembled by all levels of construction skills. These panels are produced using a
-        lightweight aluminum frame to reduce corrosion and increase durability. This is paired with
-        some elements of locally-sourced timber increase sustainability and cultural significance.
-        Lastly, we included a small water tank of the side of each unit which allows for basic
-        hygiene for rangers.
-      </p>
-
       <h2>Key considerations</h2>
       <div className="not-prose grid gap-4 sm:grid-cols-2">
         <Card title="Cultural appropriateness">
-         We want our designs to be culturally appropriate for Lama Lama Country, so we intend to have
-          ongoing conversations with their community to ensure our designs respect the values of Lama
-          Lama people.
-
-
-          Designed consultation with Traditional Owners; respects Country and existing cultural
-          protocols.
+          We want our designs to be culturally appropriate for Lama Lama Country, so we intend to
+          have ongoing conversations with their community to ensure our designs respect the values
+          of Lama Lama people.
         </Card>
         <Card title="Community ownership">
-          We aim to support the Lama Lama people throughout the implementation process of the modular
-          service hubs for a minimum of two years, with the long-term plan of independent operation
-          and the management of the Lama Lama people.
+          We aim to support the Lama Lama people throughout the implementation process of the
+          modular service hubs for a minimum of two years, with the long-term plan of independent
+          operation and the management of the Lama Lama people.
         </Card>
         <Card title="Durability">
-          Suited to tropical wet/dry conditions, cyclonic exposure, and remote site access.
+          Our modular service hubs are primarily produced from aluminum which is a highly durable
+          material that is suitable for Lama Lama Country. Aluminum thrives in hot climate due to
+          its resistance to heat and corrosion. Additionally, aluminum also works well in wet
+          conditions as it won't rot or degrade.
         </Card>
-        <Card title="Sustainability"></Card>
+        <Card title="Sustainability">
+          We also utilise locally-sourced timber within our designs to ensure sustainability in our
+          modular service hubs. This allows issues with timber to be maintained independently
+          through the Lama Lama community, without external reliance.
+        </Card>
       </div>
 
       <h2>Proposed materials and indicative cost</h2>
