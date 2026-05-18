@@ -82,7 +82,6 @@ function Index() {
         </Card>
       </div>
 
-<<<<<<< HEAD
   <figure id ="figure_1"className="my-8 text-center mx-auto max-w-3xl">
   <img
     src={GeneralConcept}
@@ -94,18 +93,6 @@ function Index() {
     <a href="/appendix-5-prompt-log#figure_1_extendable_modular_service_hub"> Source</a>
   </figcaption>
   </figure>
-=======
-      <figure className="my-8 text-center mx-auto max-w-3xl">
-        <img
-          src={GeneralConcept}
-          alt="Concept render of the proposed Modular Service Hub on Lama Lama Country."
-          className="w-full rounded-xl object-contain"
-        />
-        <figcaption className="mt-3 italic text-muted-foreground text-center">
-          Figure 1: Concept render of the proposed Modular Service Hub on Lama Lama Country.
-        </figcaption>
-      </figure>
->>>>>>> update
       <h2>Proposal summary</h2>
       <p>
         Our proposed solution is to create portable modular service hubs out of 2.5m x 2.5m panels
