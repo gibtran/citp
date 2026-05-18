@@ -25,39 +25,8 @@ function Page() {
       </table>
       <TableCaption>Table 9: Bill of materials.</TableCaption>
 
-      <h2>Labour and transport</h2>
-      <p>
-        Estimated labour: pre-fabrication at <Placeholder>X person-days</Placeholder> and
-        on-site assembly at <Placeholder>Y person-days</Placeholder>. Transport assumes
-        a single 4WD trailer trip from the regional supply point to the pilot site,
-        with an allowance for wet-season contingency.
-      </p>
-
-      <h2>Maintenance costs</h2>
-      <p>
-        Annual maintenance is estimated at <Placeholder>$ TBC</Placeholder> per unit,
-        covering battery checks, fastener inspection, water system flushing, and roof
-        cleaning.
-      </p>
-
-      <h2>End-of-life and disposal</h2>
-      <p>
-        The aluminium frame and metal roofing are recyclable. Battery disposal will
-        follow manufacturer take-back where available. Composite panels are designed
-        for long service life with later refurbishment.
-      </p>
-
-      <h2>Estimated total cost</h2>
-      <p>
-        Indicative total cost per unit (materials + labour + transport):
-        <Placeholder> $ TBC AUD</Placeholder>.
-      </p>
-
-      <h2>Possible funding / grant support</h2>
-      <p>
-        Potential funding pathways include Indigenous land management programs, regional
-        infrastructure grants, and partner contributions. <Placeholder>[Funding source placeholder]</Placeholder>
-      </p>
+      <h2>Funding</h2>
+      <p>Due to the scope of the project some additional funding may be necessary in order for the solution to be carried out which may be beyond what the Lama Lama people are able to provide. Therefore, a government scheme such as the Northern Australia Infrastructure Facility (NAIF) Act (2016) would assist with any funding requirements as they provide finance to projects being developed within northern parts of Australia. As stated within the 2026-27 Australian Federal Budget (2026, p. 488) under section 2.1 for NAIF within the budget $4 billion has been provided to fund projects that are in parts of northern Australia.</p>
     </PageShell>
   );
 }
