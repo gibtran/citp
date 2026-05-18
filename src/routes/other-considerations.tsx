@@ -80,7 +80,7 @@ function Page() {
             width: "100%",
           }}
         >
-          Figure 8: Journey map showing how rangers and Traditional Owners interact with the hub.
+          Figure 10: Journey map showing how rangers and Traditional Owners interact with the hub.
           <a href="/appendix-5-prompt-log#journey_map_prompt"> Source</a>
         </figcaption>
       </figure>

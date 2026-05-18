@@ -24,7 +24,6 @@ function Option({
   works,
   strengths,
   limitations,
-  reference,
   figureNo,
   imageSrc,
   imageAlt,
@@ -33,7 +32,8 @@ function Option({
   workAlt,
   figureWorkNo,
   sourceWorkId,
-  numberWork
+  numberWork,
+  titleWork
 }: {
   number: number;
   title: string;
@@ -41,7 +41,6 @@ function Option({
   works: string;
   strengths: string[];
   limitations: string[];
-  reference: string;
   figureNo: number;
   imageSrc: string;
   imageAlt: string;
@@ -51,6 +50,7 @@ function Option({
   workAlt: string
   figureWorkNo: number;
   numberWork: number;
+  titleWork: string;
 }) {
   return (
     <section className="mb-10 rounded-lg border border-border bg-card p-6">
@@ -125,7 +125,7 @@ function Option({
             width: "100%",
           }}
         >
-          Figure {figureWorkNo}: Concept diagram for {title}.
+          Figure {figureWorkNo}: Concept diagram for {titleWork}.
           {sourceWorkId && (
             <>
               {" "}
@@ -148,9 +148,6 @@ function Option({
           </ul>
         </div>
       </div>
-      <p className="mt-3 text-sm text-muted-foreground">
-        <strong>Reference / precedent:</strong> {reference}
-      </p>
     </section>
   );
 }
@@ -166,7 +163,7 @@ function Page() {
 
       <Option
         number={1}
-        figureNo={2.1}
+        figureNo={3.1}
         title="Modular Service Hub"
         imageSrc={option1Image}
         imageAlt="Concept image of the Modular Service Hub with raised base, enclosed rest and work area, lockable entry door
@@ -177,10 +174,11 @@ function Page() {
         addressing the lack of reliable on-site infrastructure at locations where rangers currently operate without any shelter or 
         lockable facilities during field work."
         imageWork={howItWorks1}
+        titleWork="showing how Modular Service Hub works"
         workAlt="Concept image how the Modular Service Hub is aseembled and disassembled"
-        figureWorkNo={2.2}
-        numberWork={2.2}
-        sourceWorkId="figure_2.2_prompt"
+        figureWorkNo={3.2}
+        numberWork={3.2}
+        sourceWorkId="figure_3.2_prompt"
         works="Pre-fabricated floor, wall, roof, and frame panels are transported individually to remote sites by ranger vehicle or 
         small aircraft, then manually assembled on-site onto a raised footing system that keeps the structure level and dry on uneven 
         or flood-prone ground. If relocation is needed, the hub can be disassembled back into panels and rebuilt elsewhere, though this 
@@ -200,12 +198,11 @@ function Page() {
           "Rainwater would need testing/treatment before drinking use.",
           "Take effort and time consideration for assemble and disassemble"
         ]}
-        reference="[Reference placeholder — modular remote shelter precedent]"
       />
 
       <Option
         number={2}
-        figureNo={3.1}
+        figureNo={4.1}
         title="Mobile Trailer Hub"
         imageSrc={option2Image}
         imageAlt="Concept image of a mobile trailer hub with temporary shelter, lockable storage, water tank, tow bar, 
@@ -216,10 +213,11 @@ function Page() {
         basic water support for short-term field activities particularly useful for trial patrols, seasonal work, or sites where 
         a permanent structure is not yet justified."
         imageWork={howItWorks2}
+        titleWork="showing how hub is transported between sites by rangers"
         workAlt="Concept image of Mobile Trailer Hub that can be moved to selected site"
-        figureWorkNo={3.2}
-        numberWork={3.2}
-        sourceWorkId="figure_3.2_prompt"
+        figureWorkNo={4.2}
+        numberWork={4.2}
+        sourceWorkId="figure_4.2_prompt"
         works="The trailer is stored at a central ranger depot when not in use. To deploy it, a ranger vehicle tows it directly to a 
         selected site along existing tracks, where stabilising legs are lowered to level the unit on uneven ground. Unlike the 
         Modular Service Hub, no assembly is required the hub arrives ready to use within minutes of reaching the site. Rangers 
@@ -239,12 +237,11 @@ function Page() {
           "Requires a suitable towing vehicle, registration, servicing, and secure storage.",
           "Does not establish a long-term presence on Country.",
         ]}
-        reference="[Reference placeholder — mobile field unit example]"
       />
 
       <Option
         number={3}
-        figureNo={4.1}
+        figureNo={5.1}
         title="Upgraded Existing Shelter / Storage System"
         imageSrc={option3Image}
         imageAlt="Concept image of an upgraded existing shelter with weatherproof cladding, lockable storage, roof drainage, 
@@ -254,10 +251,11 @@ function Page() {
         Improvements may include weatherproofing, lockable storage, roof drainage, rainwater tanks, shelving, and safer rest/planning 
         space."
         imageWork={howItWorks3}
+        titleWork="showing how rangers interact with upgraded shelter"
         workAlt="Concept image of how the ranger interacts with upgraded shelter"
-        figureWorkNo={4.2}
-        numberWork={4.2}
-        sourceWorkId="figure_4.2_prompt"
+        figureWorkNo={5.2}
+        numberWork={5.2}
+        sourceWorkId="figure_5.2_prompt"
         works="The process begins with a site audit where each existing structure is assessed for its condition, safety, location, 
         and suitability for ranger use. Factors considered include structural integrity, proximity to patrol areas, floor space, and 
         whether the building can practically support the planned upgrades. Structures that pass the audit are then upgraded based on 
@@ -278,7 +276,6 @@ function Page() {
           "Different layouts make maintenance harder to standardise.",
           "Does not help sites with no current infrastructure.",
         ]}
-        reference="[Reference placeholder — remote shelter upgrade case study]"
       />
     </PageShell>
   );

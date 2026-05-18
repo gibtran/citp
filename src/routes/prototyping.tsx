@@ -95,7 +95,7 @@ function Page() {
             style={{ width: "100%", borderRadius: "12px" }}
           />
           <figcaption style={{ textAlign: "center", fontStyle: "italic", marginTop: "8px" }}>
-            Figure 7: Digital prototype of the Modular Service Hub.
+            Figure 8: Digital prototype of the Modular Service Hub.
           </figcaption>
         </figure>
 
@@ -106,7 +106,7 @@ function Page() {
             style={{ width: "100%", borderRadius: "12px" }}
           />
           <figcaption style={{ textAlign: "center", fontStyle: "italic", marginTop: "8px" }}>
-            Figure 8: Digital prototype of the Modular Service Hub.
+            Figure 9: Digital prototype of the Modular Service Hub.
           </figcaption>
         </figure>
       </div>

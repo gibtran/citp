@@ -36,7 +36,7 @@ function Page() {
         <tbody>
           <tr>
             <td id={"option_1_image_prompt"}>
-              <a href="/design-options#option_1_figure">Figure 2: Modular Service Hub concept image</a>
+              <a href="/design-options#option_1_figure">Figure 3.1: Concept diagram for Modular Service Hub</a>
             </td>
             <td>
               <Placeholder>15/05/2026</Placeholder>
@@ -69,7 +69,7 @@ function Page() {
 
           <tr>
             <td id={"option_2_image_prompt"}>
-              <a href="/design-options#option_2_figure">Figure 3: Mobile Trailer Hub concept image</a>
+              <a href="/design-options#option_2_figure">Figure 4.1: Concept diagram for Mobile Trailer Hub</a>
             </td>
             <td>
               <Placeholder>15/05/2026</Placeholder>
@@ -102,7 +102,7 @@ function Page() {
 
           <tr>
             <td id={"option_3_image_prompt"}>
-              <a href="/design-options#option_3_figure">Figure 4: Upgraded Existing Shelter concept image</a>
+              <a href="/design-options#option_3_figure">Figure 5.1: Concept diagram for Upgraded Existing Shelter / Storage System</a>
             </td>
             <td>
               <Placeholder>15/05/2026</Placeholder>
@@ -134,7 +134,7 @@ function Page() {
 
           <tr>
             <td id={"block_diagram_prompt"}>
-              <a href="/detailed-design#block_diagram_id">Figure 6: Block diagram</a>
+              <a href="/detailed-design#block_diagram_id">Figure 7: Block diagram</a>
             </td>
             <td>
               <Placeholder>15/05/2026</Placeholder>
@@ -160,7 +160,7 @@ function Page() {
           </tr>
           <tr>
             <td id={"journey_map_prompt"}>
-              <a href="/other-considerations#journey_map">Figure 8: Journey Map</a>
+              <a href="/other-considerations#journey_map">Figure 10: Journey Map</a>
             </td>
             <td>
               <Placeholder>15/05/2026</Placeholder>
@@ -219,8 +219,8 @@ function Page() {
           </tr>
 
           <tr>
-          <td id={"figure_2.2_prompt"}>
-            <a href="/design-options#figure_2.2_prompt">Figure 2.2: Modular Service Hub assembly concept image</a>
+          <td id={"figure_3.2_prompt"}>
+            <a href="/design-options#figure_3.2_prompt">Figure 3.2: Concept diagram for showing how Modular Service Hub works</a>
           </td>
           <td>
             <Placeholder>16/06/2026</Placeholder>
@@ -238,7 +238,7 @@ function Page() {
           </td>
           <td>
             <Placeholder>
-              Generated a concept image for Figure 2.1 to illustrate how the Modular Service Hub panels
+              Generated a concept image for Figure 3.2 to illustrate how the Modular Service Hub panels
               are assembled and disassembled by rangers on-site, supporting the explanation of how the
               hub is deployed and relocated across remote locations.
             </Placeholder>
@@ -252,8 +252,8 @@ function Page() {
           </td>
           </tr>
           <tr>
-          <td id={"figure_3.2_prompt"}>
-            <a href="/design-options#figure_3.2_prompt">Figure 3.2: Mobile Trailer Hub concept image</a>
+          <td id={"figure_4.2_prompt"}>
+            <a href="/design-options#figure_4.2_prompt">Figure 4.2: Concept diagram for showing how hub is transported between sites by rangers</a>
           </td>
           <td>
             <Placeholder>16/06/2026</Placeholder>
@@ -271,7 +271,7 @@ function Page() {
           </td>
           <td>
             <Placeholder>
-              Generated a concept image for Figure 2.2 to visually demonstrate how the Mobile Trailer
+              Generated a concept image for Figure 4.2 to visually demonstrate how the Mobile Trailer
               Hub is towed between multiple sites across Lama Lama Country, supporting the explanation
               of its flexibility and mobility compared to a fixed installation.
             </Placeholder>
@@ -285,8 +285,8 @@ function Page() {
           </td>
         </tr>
         <tr>
-        <td id={"figure_4.2_prompt"}>
-          <a href="/design-options#figure_4.2_prompt">Figure 4.2: Upgraded Existing Shelter with rangers concept image</a>
+        <td id={"figure_5.2_prompt"}>
+          <a href="/design-options#figure_5.2_prompt">Figure 5.2: Concept diagram for showing how rangers interact with upgraded shelter</a>
         </td>
         <td>
           <Placeholder>16/06/2026</Placeholder>
@@ -304,7 +304,7 @@ function Page() {
         </td>
         <td>
           <Placeholder>
-            Generated a concept image for Figure 4.2 to illustrate how rangers would interact with
+            Generated a concept image for Figure 5.2 to illustrate how rangers would interact with
             the upgraded shelter in a real field context, helping communicate the human scale and
             practical use of the design to the reader.
           </Placeholder>
