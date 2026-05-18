@@ -50,7 +50,6 @@ function Page() {
           </tr>
         </tbody>
       </table>
-      <TableCaption>Table 5: Weighted decision matrix (rating × weight, summed).</TableCaption>
 
       <h2>Justification</h2>
       <p>

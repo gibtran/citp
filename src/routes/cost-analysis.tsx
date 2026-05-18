@@ -23,7 +23,6 @@ function Page() {
           <tr><td>Aluminium Panel</td><td><Placeholder>6</Placeholder></td><td><Placeholder>$500</Placeholder></td><td><Placeholder>$3,000</Placeholder></td><td>https://steelmart.com.au/products/aluminium-sheet?variant=45236291895452</td></tr><tr><td>Labour</td><td><Placeholder>6</Placeholder></td><td><Placeholder>$50</Placeholder></td><td><Placeholder>$300</Placeholder></td><td>https://steelmart.com.au/products/aluminium-sheet?variant=45236291895452</td></tr><tr><td>Transportation</td><td><Placeholder>1</Placeholder></td><td><Placeholder>$1,500</Placeholder></td><td><Placeholder>$1,500</Placeholder></td><td>https://omegacargo.com.au/container-shipping-cost-and-rates-in-australia/</td></tr><tr><td>Training Per Person</td><td><Placeholder>20</Placeholder></td><td><Placeholder>$375</Placeholder></td><td><Placeholder>$7,500</Placeholder></td><td>https://www.affordabletraining.com.au/courses-brisbane/</td></tr>
         </tbody>
       </table>
-      <TableCaption>Table 9: Bill of materials.</TableCaption>
 
 
       <h2>Panels</h2>

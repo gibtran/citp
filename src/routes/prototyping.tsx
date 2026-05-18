@@ -63,7 +63,6 @@ function Page() {
           </tr>
         </tbody>
       </table>
-      <TableCaption>Table 6: Prototype components and their purposes.</TableCaption>
 
       <h2>How the Prototype Was Constructed</h2>
       <p>
@@ -152,7 +151,6 @@ function Page() {
           </tr>
         </tbody>
       </table>
-      <TableCaption>Table 7: Design evaluation focus for the digital prototype.</TableCaption>
 
       <h2>Prototype Limitations</h2>
       <p>
