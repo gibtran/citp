@@ -53,7 +53,8 @@ function Page() {
           bodies.
         </Card>
         <Card title="Tourists">
-          tourists are able to access the monitored information surrounding environment changes, to ensure safety when travelling to Lama Lama Country
+          tourists are able to access the monitored information surrounding environment changes, to ensure
+          safety when travelling to Lama Lama Country
 
         </Card>
       </div>

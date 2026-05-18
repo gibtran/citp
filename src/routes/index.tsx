@@ -48,7 +48,6 @@ function Index() {
           </tr>
         </tbody>
       </table>
-      <TableCaption>Table 1: Project snapshot.</TableCaption>
 
       <h2>Overview of design</h2>
       <div className="not-prose grid gap-4 sm:grid-cols-2">
@@ -110,63 +109,6 @@ function Index() {
           through the Lama Lama community, without external reliance.
         </Card>
       </div>
-
-      <h2>Proposed materials and indicative cost</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Component</th>
-            <th>Material</th>
-            <th>Indicative cost (AUD)</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Frame</td>
-            <td>Marine-grade aluminium</td>
-            <td>
-              <Placeholder>$ TBC</Placeholder>
-            </td>
-          </tr>
-          <tr>
-            <td>Floor &amp; cladding</td>
-            <td>Composite panel, treated ply</td>
-            <td>
-              <Placeholder>$ TBC</Placeholder>
-            </td>
-          </tr>
-          <tr>
-            <td>Roof &amp; insulation</td>
-            <td>Colorbond, foil-faced insulation</td>
-            <td>
-              <Placeholder>$ TBC</Placeholder>
-            </td>
-          </tr>
-          <tr>
-            <td>Power system</td>
-            <td>Solar PV + LiFePO₄ battery</td>
-            <td>
-              <Placeholder>$ TBC</Placeholder>
-            </td>
-          </tr>
-          <tr>
-            <td>Water system</td>
-            <td>Poly tank + first-flush diverter</td>
-            <td>
-              <Placeholder>$ TBC</Placeholder>
-            </td>
-          </tr>
-          <tr>
-            <td colSpan={2}>
-              <strong>Estimated total per unit</strong>
-            </td>
-            <td>
-              <Placeholder>$ TBC AUD</Placeholder>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <TableCaption>Table 2: Indicative bill of materials and cost summary.</TableCaption>
     </PageShell>
   );
 }
