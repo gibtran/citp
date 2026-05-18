@@ -73,14 +73,16 @@ function Index() {
         </Card>
       </div>
 
-  <figure className="my-8 text-center mx-auto max-w-3xl">
+  <figure id="figure_1" className="my-8 text-center mx-auto max-w-3xl">
   <img
     src={GeneralConcept}
     alt="Concept render of the proposed Modular Service Hub on Lama Lama Country."
     className="w-full rounded-xl object-contain"
   />
-  <figcaption className="mt-3 italic text-muted-foreground text-center">
+  <figcaption className="mt-3 italic text-muted-foreground text-center" >
     Figure 1: Concept render of the proposed Modular Service Hub on Lama Lama Country.
+   <a href="/appendix-5-prompt-log#figure_1_extendable_modular_service_hub"> Source</a>
+
   </figcaption>
   </figure>
       <h2>Proposal summary</h2>

@@ -317,6 +317,43 @@ function Page() {
           </Placeholder>
         </td>
       </tr>
+
+        <tr>
+      <td id={"figure_1_extendable_modular_service_hub"}>
+        <a href="/#figure_1">Figure 1: Modular Service Hub extendable concept image</a>
+      </td>
+      <td>
+        <Placeholder>17/06/2026</Placeholder>
+      </td>
+      <td>
+        <Placeholder>ChatGPT</Placeholder>
+      </td>
+      <td>
+        <Placeholder>
+          Create a clean 3D concept image of a compact modular service hub for remote outstations.
+          The design should show a raised base, enclosed rest/work area, lockable entry door, modular
+          wall panels, weather-protective roof, roof runoff connection, and rainwater tank. Can you
+          create one more picture that shows how to extend the hubs by attaching multiple together,
+          because our ideas were creating the hub that can be extendable too, with connection joint,
+          so it can fit more.
+        </Placeholder>
+      </td>
+      <td>
+        <Placeholder>
+          Generated a concept image for Figure 1 to visually demonstrate how multiple Modular Service
+          Hub units can be connected together using joining joints, illustrating the expandability of
+          the design as ranger program needs grow at a single outstation.
+        </Placeholder>
+      </td>
+      <td>
+        <Placeholder>
+          Reviewed by the team to confirm the connection joints between units were clearly visible
+          and that the extended configuration still reflected the core hub design. Checked that the
+          image supported the expandability feature described in the design strengths section.
+        </Placeholder>
+      </td>
+    </tr>
+
         </tbody>
       </table>
     </PageShell>
