@@ -34,13 +34,6 @@ function Page() {
         </li>
 
         <li>
-          Lama Lama Country. (n.d.). <em>Lama Lama Rangers</em>.{" "}
-          <a href="https://www.lamalama.org.au/lama-lama-rangers/" target="_blank" rel="noreferrer">
-            https://www.lamalama.org.au/lama-lama-rangers/
-          </a>
-        </li>
-
-        <li>
           Queensland Government. (2019). <em>Climate change in the Cape York region</em>.{" "}
           <a
             href="https://www.qld.gov.au/__data/assets/pdf_file/0019/68140/cape-york-climate-change-impact-summary.pdf"
@@ -51,8 +44,19 @@ function Page() {
           </a>
         </li>
 
+        <li>
+          Yintjingga Aboriginal Corporation. (n.d.). <em>Welcome to Lama Lama Country</em>.{" "}
+          <a href="https://www.lamalama.org.au/" target="_blank" rel="noreferrer">
+            https://www.lamalama.org.au/
+          </a>
+        </li>
 
-
+        <li>
+          Yintjingga Aboriginal Corporation. (n.d.). <em>Lama Lama Rangers</em>.{" "}
+          <a href="https://www.lamalama.org.au/lama-lama-rangers/" target="_blank" rel="noreferrer">
+            https://www.lamalama.org.au/lama-lama-rangers/
+          </a>
+        </li>
 
         <li style={{ paddingTop: "40px" }}>
           <a
