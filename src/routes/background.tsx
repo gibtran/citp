@@ -24,22 +24,21 @@ function Page() {
       <Card title="What is currently being done">
         Currently, Lama Lama Country has outstations in areas close ot their main location, however
         these hubs are outdated and defective. The facilities within these outstations cannot
-        provide the necessities for rangers to complete their job effectively. These current hubs have
-        issues such as unhygienic, no running water and no storage
+        provide the necessities for rangers, such as running water and secure storage.
       </Card>
       <h2></h2>
       <Card title="Why current solutions are not enough">
-        Lama Lama rangers are not able to access certain areas of land because of the unforgiving
-        landscape and intense weather cycles. This causes issues for monitoring land and wildlife
-        for remote places within Lama Lama Country. This results in rangers having the travel long
-        distances while carrying heavy equipment without any places to rest.
+        These conditions cause rangers to not achieve the best outcome with their work as they cannot
+        perform at their best. Without basic equipment, rangers aren't able to complete their job within
+        local areas, let alone remote areas with longer distances. Overall, the current outstations
+        results in subpar work from rangers.
       </Card>
       <h2></h2>
       <Card title="What the project aims to achieve">
-        Lama Lama rangers are not able to access certain areas of land because of the unforgiving
-        landscape and intense weather cycles. This causes issues for monitoring land and wildlife
-        for remote places within Lama Lama Country. This results in rangers having the travel long
-        distances while carrying heavy equipment without any places to rest.
+        We aim to create the best possible conditions to allow rangers to effectively monitor and assess
+        remote areas within Lama Lama Country. implementing these service modular hubs, provide a
+        shelter with basic necessities such as lighting, water and storage to remote places. This allows f
+        or safe access points for rangers to rest without the need to ravelling back home.
       </Card>
     </PageShell>
   );
