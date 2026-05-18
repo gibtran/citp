@@ -21,19 +21,19 @@ function Page() {
       <p>
         The Lama Lama people and Rangers need a transportable and durable service hub that supports
         storage, rest, planning and fieldwork activities at remote outstations, so that they can
-        work more effectively and safely (Engineers Without Borders Australia, 2026; Yintjingga
-        Aboriginal Corporation, n.d.).
+        work more effectively and safely (Engineers Without Borders Australia, 2026).
       </p>
 
       <h2>Problem and ideal future situation</h2>
       <p>
         Currently, Lama Lama Country lacks a reliable and accessible infrastructure that meets the
-        necessary conditions to support Rangers (EWB, 2026). Furthermore, Lama Lama also faces harsh
-        environmental conditions, including a tropical wet/dry climate, high UV exposure, and
-        cyclonic weather events, highlighting the need for durable and low-maintenance
-        infrastructure (Queensland Government, 2019). Ideally, we can build modular service hubs in
-        Lama Lama Country, owned and maintained by the community, so that rangers and Traditional
-        Owners can work more safely and effectively with less reliance on external services.
+        necessary conditions to support Rangers (Engineers Without Borders Australia, 2026).
+        Furthermore, Lama Lama also faces harsh environmental conditions, including a tropical
+        wet/dry climate, high UV exposure, and cyclonic weather events, highlighting the need for
+        durable and low-maintenance infrastructure (Queensland Government, 2019). Ideally, we can
+        build modular service hubs in Lama Lama Country, owned and maintained by the community, so
+        that rangers and Traditional Owners can work more safely and effectively with less reliance
+        on external services.
       </p>
 
       <h2>Design criteria</h2>

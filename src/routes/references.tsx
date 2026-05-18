@@ -17,9 +17,6 @@ export const Route = createFileRoute("/references")({
 function Page() {
   return (
     <PageShell eyebrow="13 · References" title="References">
-      <p className="text-sm text-muted-foreground">
-        References are formatted in APA 7 style. Replace placeholders with full citations.
-      </p>
       <ol className="space-y-3 pl-5 [&>li]:pl-2">
         <li>
           Engineers Without Borders Australia. (2026).{" "}
@@ -45,14 +42,14 @@ function Page() {
         </li>
 
         <li>
-          Yintjingga Aboriginal Corporation. (n.d.). <em>Welcome to Lama Lama Country</em>.{" "}
+          Yintjingga Aboriginal Corporation. (n.d.-a). <em>Welcome to Lama Lama Country</em>.{" "}
           <a href="https://www.lamalama.org.au/" target="_blank" rel="noreferrer">
             https://www.lamalama.org.au/
           </a>
         </li>
 
         <li>
-          Yintjingga Aboriginal Corporation. (n.d.). <em>Lama Lama Rangers</em>.{" "}
+          Yintjingga Aboriginal Corporation. (n.d.-b). <em>Lama Lama Rangers</em>.{" "}
           <a href="https://www.lamalama.org.au/lama-lama-rangers/" target="_blank" rel="noreferrer">
             https://www.lamalama.org.au/lama-lama-rangers/
           </a>
