@@ -1,11 +1,15 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageShell, Card } from "@/components/report";
-
+import backgroundImage from "../img/background.jpeg";
 export const Route = createFileRoute("/background")({
   head: () => ({
     meta: [
       { title: "Background — Modular Service Hubs" },
-      { name: "description", content: "Background, stakeholder significance, and existing solutions for remote infrastructure on Lama Lama Country." },
+      {
+        name: "description",
+        content:
+          "Background, stakeholder significance, and existing solutions for remote infrastructure on Lama Lama Country.",
+      },
     ],
   }),
   component: Page,
@@ -28,17 +32,47 @@ function Page() {
       </Card>
       <h2></h2>
       <Card title="Why current solutions are not enough">
-        These conditions cause rangers to not achieve the best outcome with their work as they cannot
-        perform at their best. Without basic equipment, rangers aren't able to complete their job within
-        local areas, let alone remote areas with longer distances. Overall, the current outstations
-        results in subpar work from rangers.
+        These conditions cause rangers to not achieve the best outcome with their work as they
+        cannot perform at their best. Without basic equipment, rangers aren't able to complete their
+        job within local areas, let alone remote areas with longer distances. Overall, the current
+        outstations results in subpar work from rangers.
       </Card>
+      <figure
+        style={{
+          margin: "32px auto",
+          textAlign: "center",
+          maxWidth: "900px",
+        }}
+      >
+        <img
+          src={backgroundImage}
+          alt="Existing outstation conditions showing the limitations of current infrastructure."
+          style={{
+            width: "100%",
+            display: "block",
+            borderRadius: "12px",
+            objectFit: "contain",
+          }}
+        />
+        <figcaption
+          style={{
+            marginTop: "12px",
+            fontStyle: "italic",
+            color: "#555",
+            textAlign: "center",
+          }}
+        >
+          Figure X: Existing outstation conditions showing the limitations of current
+          infrastructure. Source: [Add source here].
+        </figcaption>
+      </figure>
       <h2></h2>
       <Card title="What the project aims to achieve">
-        We aim to create the best possible conditions to allow rangers to effectively monitor and assess
-        remote areas within Lama Lama Country. implementing these service modular hubs, provide a
-        shelter with basic necessities such as lighting, water and storage to remote places. This allows f
-        or safe access points for rangers to rest without the need to ravelling back home.
+        We aim to create the best possible conditions to allow rangers to effectively monitor and
+        assess remote areas within Lama Lama Country. implementing these service modular hubs,
+        provide a shelter with basic necessities such as lighting, water and storage to remote
+        places. This allows f or safe access points for rangers to rest without the need to
+        ravelling back home.
       </Card>
     </PageShell>
   );
