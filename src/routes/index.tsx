@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageShell, Figure, TableCaption, Card, Placeholder } from "@/components/report";
+import GeneralConcept from "../img/GeneralConcept.jpeg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -72,10 +73,16 @@ function Index() {
         </Card>
       </div>
 
-      <p></p>
-
-      <Figure caption="Figure 1: Concept render of the proposed Modular Service Hub on Lama Lama Country." />
-
+  <figure className="my-8 text-center mx-auto max-w-3xl">
+  <img
+    src={GeneralConcept}
+    alt="Concept render of the proposed Modular Service Hub on Lama Lama Country."
+    className="w-full rounded-xl object-contain"
+  />
+  <figcaption className="mt-3 italic text-muted-foreground text-center">
+    Figure 1: Concept render of the proposed Modular Service Hub on Lama Lama Country.
+  </figcaption>
+  </figure>
       <h2>Proposal summary</h2>
       <p>
         Our proposed solution is to create portable modular service hubs out of 2.5m x 2.5m panels
