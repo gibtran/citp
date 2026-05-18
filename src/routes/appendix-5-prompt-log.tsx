@@ -320,7 +320,7 @@ function Page() {
 
         <tr>
       <td id={"figure_1_extendable_modular_service_hub"}>
-        <a href="/#figure_1">Figure 1: Modular Service Hub extendable concept image</a>
+        <a href="/#figure_1">Figure 1: Concept render of the proposed Modular Service Hub on Lama Lama Country</a>
       </td>
       <td>
         <Placeholder>17/06/2026</Placeholder>
