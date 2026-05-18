@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageShell, Card } from "@/components/report";
-import backgroundImage from "../img/background.jpeg";
+import outstationImage from "../img/outstation.jpg";
 export const Route = createFileRoute("/background")({
   head: () => ({
     meta: [
@@ -48,7 +48,7 @@ function Page() {
         }}
       >
         <img
-          src={backgroundImage}
+          src={outstationImage}
           alt="Existing outstation conditions showing the limitations of current infrastructure."
           style={{
             width: "100%",
@@ -65,8 +65,7 @@ function Page() {
             textAlign: "center",
           }}
         >
-          Figure X: Existing outstation conditions showing the limitations of current
-          infrastructure. Source: [Add source here].
+          Figure 2: Current facilities of outstations in Lama Lama Country
         </figcaption>
       </figure>
       <h2></h2>
